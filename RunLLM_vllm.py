@@ -7,43 +7,24 @@ import pandas as pd
 if __name__ == '__main__':
     
     prompt = Prompt("SIIM.toml")
-    
-    # use this command to port-forward from a server (roqril0006a) running vllm which will then appear on localhost port 10000:
+    # to use vllm, make sure you have port accessible:
     # ssh -N -L localhost:10000:localhost:8000 bje01@roqril006a&
-    
-    client = vLLMClient(
+    client = OpenAIClient(
         model="meta-llama/Meta-Llama-3-70B-Instruct",
         base_url="http://localhost:10000/v1",
         temperature=0.0,
-        seed=42
-    )
-    '''
-    client = OllamaClient(
-        model="llama3",
-        base_url="http://localhost:11434/v1",
-        temperature=0.0,
         seed=42,
-    #    hide_blocks=True
+        api_key="EMPTY"
     )
-    '''
-    '''
-    client = OpenAIClient(
-        model="GPT-4o",
-        api_key="",
-        temperature=0.0,
-        seed=42
-    )
-    '''
     # delete any prior output
-    if os.path.exists('output.csv'):
-        os.remove("output.csv")
+    if os.path.exists('output-vllm70B.csv'):
+        os.remove("output-vllm70B.csv")
     
     
     engine = RadPrompter(
         client=client,
         prompt=prompt, 
-        hide_blocks=True,
-        output_file="output.csv",
+        output_file="output-vllm70B.csv",
     )
     
     #---
@@ -111,7 +92,7 @@ if __name__ == '__main__':
     
     
     print ('Doing inference...')
-    out=engine(reports)
+    #out=engine(reports)
     
     #---
     
@@ -125,20 +106,15 @@ if __name__ == '__main__':
     # Merge the 'Findings' column from reports_df into output_df
     out_df = out_df.join(reports_df['Findings'])
     
-    out_df
-    
     #---
     
-    if os.path.exists('SIIM_Results.csv'):
-        os.remove("SIIM_Results.csv")
+    if os.path.exists('~/Desktop/SIIM_Results_vllm70B.csv'):
+        os.remove("~/Desktop/SIIM_Results_vllm70B.csv")
     # Write the combined dataframe to a CSV fil
-    out_df.replace('Absent', 'No', inplace=True)
-    out_df.replace('Present', 'Yes', inplace=True)
-    out_df.to_csv('SIIM_Results.csv')
+    out_df.to_csv('~/Desktop/SIIM_Results_vllm70B.csv')
     
-    print('The below should show only results, no reports or other PHI. Please send this file back to BJE@mayo.edu')
-    
-    out_df
+    print('View SIIM_Results_vllm to confirm no reports or other PHI. Please send this file back to BJE@mayo.edu')
+ 
 
 
 ##########################################################################

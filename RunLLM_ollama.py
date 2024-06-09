@@ -4,54 +4,33 @@ import pandas as pd
 import numpy as np 
 import pandas as pd
 
+MODEL = 'mixtral8x22b'
+INPUT_FILE = '~/Desktop/SIIMCombinedReports.xlsx'
+OUTPUT_FILE = '~/Desktop/SIIM_Results-' + MODEL + '.csv'
+TEMP_OUT = '~/Desktop/output-' + MODEL + '.csv'
+
 if __name__ == '__main__':
     
     prompt = Prompt("SIIM.toml")
-    
-    # use this command to port-forward from a server (roqril0006a) running vllm which will then appear on localhost port 10000:
-    # ssh -N -L localhost:10000:localhost:8000 bje01@roqril006a&
-    
-    client = vLLMClient(
-        model="meta-llama/Meta-Llama-3-70B-Instruct",
-        base_url="http://localhost:10000/v1",
-        temperature=0.0,
-        seed=42
-    )
-    '''
     client = OllamaClient(
         model="llama3",
         base_url="http://localhost:11434/v1",
         temperature=0.0,
-        seed=42,
-    #    hide_blocks=True
-    )
-    '''
-    '''
-    client = OpenAIClient(
-        model="GPT-4o",
-        api_key="",
-        temperature=0.0,
         seed=42
     )
-    '''
     # delete any prior output
-    if os.path.exists('output.csv'):
-        os.remove("output.csv")
+    if os.path.exists(TEMP_OUT):
+        os.remove(TEMP_OUT)
     
     
     engine = RadPrompter(
         client=client,
         prompt=prompt, 
-        hide_blocks=True,
-        output_file="output.csv",
+        output_file=TEMP_OUT,
     )
     
-    #---
-    
-    # now read in the reports from SIIMCombinedReports.xlsx into a pandas dataframe
-    
     # Load the Excel file into a DataFrame
-    reports_df = pd.read_excel('~/Desktop/SIIMCombinedReports.xlsx')
+    reports_df = pd.read_excel(INPUT_FILE)
     # strip spaces out of the FIndings column
     reports_df['Findings'] = reports_df['Findings'].str.replace(' ', '')
     
@@ -111,12 +90,12 @@ if __name__ == '__main__':
     
     
     print ('Doing inference...')
-    out=engine(reports)
+    #out=engine(reports)
     
     #---
     
     
-    output_df = pd.read_csv("output.csv", index_col='index')
+    output_df = pd.read_csv(TEMP_OUT, index_col='index')
     # rename the colume in output_df from 'filename' to 'ExamClass'
     out_df = output_df.rename(columns={'filename': 'ExamClass'}) 
     
@@ -125,20 +104,16 @@ if __name__ == '__main__':
     # Merge the 'Findings' column from reports_df into output_df
     out_df = out_df.join(reports_df['Findings'])
     
-    out_df
-    
+
     #---
     
-    if os.path.exists('SIIM_Results.csv'):
-        os.remove("SIIM_Results.csv")
+    if os.path.exists(OUTPUT_FILE):
+        os.remove(OUTPUT_FILE)
     # Write the combined dataframe to a CSV fil
-    out_df.replace('Absent', 'No', inplace=True)
-    out_df.replace('Present', 'Yes', inplace=True)
-    out_df.to_csv('SIIM_Results.csv')
+    out_df.to_csv(OUTPUT_FILE)
     
-    print('The below should show only results, no reports or other PHI. Please send this file back to BJE@mayo.edu')
+    print('Examine the output file to assure no reports or other PHI. Please send this file back to BJE@mayo.edu')
     
-    out_df
 
 
 ##########################################################################
