@@ -4,54 +4,64 @@ import pandas as pd
 import numpy as np 
 import pandas as pd
 
+
+INPUT_FILE = '~/Desktop/SIIMCombinedReports.xlsx'
+
 if __name__ == '__main__':
+    import argparse
+
+    # Set up the argument parser
+    parser = argparse.ArgumentParser(description="Process command line arguments for the LLM model and server configuration.")
+    parser.add_argument('--skip', type=int, default=0, help='Interval to skip (default = 0)')
+    parser.add_argument('--model', type=str, default='llama3', help='Model to use for generation, default =llama3')
+    parser.add_argument('--port', type=int, default=1234, help='Port number for the LLM server, default=1234')
+
+    # Parse the arguments
+    args = parser.parse_args()
+
+    # Assign parsed arguments to variables
+    skip_interval = args.skip
+    MODEL = args.model
+    server_port = args.port
+
+    OUTPUT_FILE = '~/Desktop/SIIM_Results-' + MODEL + '.csv'
+    TEMP_OUT = '~/Desktop/output-' + MODEL + '.csv'
+
+    # Print the parsed values (optional, for verification)
+    print(f"Skip interval  is {skip_interval}.")
+    print(f"Using model: {MODEL}")
+    print(f"Connecting to server on port: {server_port}")
+    print (f"Results will be written to {OUTPUT_FILE}")
     
     prompt = Prompt("SIIM.toml")
-    
-    # use this command to port-forward from a server (roqril0006a) running vllm which will then appear on localhost port 10000:
-    # ssh -N -L localhost:10000:localhost:8000 bje01@roqril006a&
-    
-    client = vLLMClient(
-        model="meta-llama/Meta-Llama-3-70B-Instruct",
-        base_url="http://localhost:10000/v1",
-        temperature=0.0,
-        seed=42
-    )
-    '''
-    client = OllamaClient(
-        model="llama3",
-        base_url="http://localhost:11434/v1",
-        temperature=0.0,
-        seed=42,
-    #    hide_blocks=True
-    )
-    '''
-    '''
-    client = OpenAIClient(
-        model="GPT-4o",
-        api_key="",
-        temperature=0.0,
-        seed=42
-    )
-    '''
+    if server_port == 1234: # lmstudio
+        client = OpenAIClient(
+            model=MODEL,
+            base_url=f"http://localhost:{server_port}/v1",
+            temperature=0.0,
+            seed=42
+        )
+    elif server_port == 11434: # ollama        
+        client = OllamaClient(
+            model=MODEL,
+            base_url=f"http://localhost:{server_port}/v1",
+            temperature=0.0,
+            seed=42
+        )
     # delete any prior output
-    if os.path.exists('output.csv'):
-        os.remove("output.csv")
+    if os.path.exists(TEMP_OUT):
+        os.remove(TEMP_OUT)
     
     
     engine = RadPrompter(
         client=client,
         prompt=prompt, 
+        output_file=TEMP_OUT,
         hide_blocks=True,
-        output_file="output.csv",
     )
     
-    #---
-    
-    # now read in the reports from SIIMCombinedReports.xlsx into a pandas dataframe
-    
     # Load the Excel file into a DataFrame
-    reports_df = pd.read_excel('~/Desktop/SIIMCombinedReports.xlsx')
+    reports_df = pd.read_excel(INPUT_FILE)
     # strip spaces out of the FIndings column
     reports_df['Findings'] = reports_df['Findings'].str.replace(' ', '')
     
@@ -108,15 +118,18 @@ if __name__ == '__main__':
     reports = [{'report': report.strip(), 'filename': category} for report, category in zip(reports_df['Report'], reports_df['ExamClass']) if report.strip()]
     
     #---
+    if skip_interval > 1:
+        reports = reports[::skip_interval]
     
-    
-    print ('Doing inference...')
-    out=engine(reports)
-    
+    if skip_interval > -1:
+        print ('Doing inference...')
+        out=engine(reports)
+    else:
+        print (f"Skipping the inference step and using {TEMP_OUT}")
     #---
     
     
-    output_df = pd.read_csv("output.csv", index_col='index')
+    output_df = pd.read_csv(TEMP_OUT, index_col='index')
     # rename the colume in output_df from 'filename' to 'ExamClass'
     out_df = output_df.rename(columns={'filename': 'ExamClass'}) 
     
@@ -125,22 +138,12 @@ if __name__ == '__main__':
     # Merge the 'Findings' column from reports_df into output_df
     out_df = out_df.join(reports_df['Findings'])
     
-    out_df
-    
+
     #---
     
-    if os.path.exists('SIIM_Results.csv'):
-        os.remove("SIIM_Results.csv")
+    if os.path.exists(OUTPUT_FILE):
+        os.remove(OUTPUT_FILE)
     # Write the combined dataframe to a CSV fil
-    out_df.replace('Absent', 'No', inplace=True)
-    out_df.replace('Present', 'Yes', inplace=True)
-    out_df.to_csv('SIIM_Results.csv')
+    out_df.to_csv(OUTPUT_FILE)
     
-    print('The below should show only results, no reports or other PHI. Please send this file back to BJE@mayo.edu')
-    
-    out_df
-
-
-##########################################################################
-# This file was converted using nb2py: https://github.com/BardiaKh/nb2py #
-##########################################################################
+    print('Examine the output file to assure no reports or other PHI. Please send this file back to BJE@mayo.edu')
