@@ -1,0 +1,177 @@
+RadPrompter Version: 1.1.9
+Model: llama3
+Prompt TOML: /Users/bje/repos/SIIMPrompter/SIIM.toml
+Prompt Version: 0.1
+Prompt Hash: 8566c0c1dcf4f70be7f33f31eb5c1ffb
+Concurrency Factor: 1
+Start Time: 2024-05-31 16:10:34
+End Time: 2024-05-31 17:48:55
+Duration: 5901.0
+Number of Items: 670
+Average Processing Time: 8.807462686567165
+
+
+-------------------- *** - Prompt Content - *** --------------------
+
+[METADATA]
+
+version = 0.1
+description = "A sample prompt for RadPrompter"
+
+[PROMPTS]
+
+system_prompt = "You are a helpful assistant that has 20 years of experience in reading radiology reports and extracting data elements."
+
+user_prompt_intro = "{{intro_prompt}}\n"
+
+user_prompt_no_cot = """
+I want you to extract the following data element from the report: 
+{{hint}}
+
+Provide a single answer:
+
+"""
+
+[CONSTRUCTOR]
+system = "rdp(system_prompt)"
+user = [
+"rdp(user_prompt_intro + user_prompt_no_cot)"
+]
+stop_tags = [
+" "
+]
+
+
+[SCHEMAS]
+[SCHEMAS.PulmonaryEmbolism]
+variable_name = "Pulmonary Embolism"
+intro_prompt = """
+Carefully review the provided chest CT report (in the <report> tag). Ensure that each data element is accurately captured.
+
+Here is the report:
+<report>
+{{report}}
+</report>
+
+Please pay attention to the following details:
+- Your attention to detail is crucial for maintaining the integrity of the medical records. 
+- You should not confabulate information, and if something is not mentioned, you should assume that it is `Absent` unless otherwise stated.
+- The report may contain additional information that is not relevant to the requested data elements. Please ignore that information.
+- We are interested at findings at the time of scan, not the previous ones, so only consider the impression and findings sections of the report.
+- Do not print anything else other than the provided output format.
+"""
+type = "select"
+options = ["Present", "Absent"]
+show_options_in_hint = true
+hint = """
+Indicate `Present` if the report explicitly mentions the patient has definitely, probably, or likely has the finding of interest. 
+Indicate `Absent` if it is specifically mentioned to not be present, but also if considered unlikely.
+"""
+
+[SCHEMAS.Pneumonia]
+variable_name = "Pneumonia"
+intro_prompt = ""
+type = "select"
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report indicates the patient mostly likely has pneumonia. 
+Indicate `No` if the report indicates the patient mostly likely does not have pneumonia or if pneumonia is not mentioned. 
+"""
+
+[SCHEMAS.LiverMets]
+variable_name = "LiverMets"
+type = "select"
+intro_prompt = ""
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has at least 1 metastasis involving their liver. Do not consider other organs. 
+Indicate `No` if the report explicitly mentions the patient has no metastasis involving their liver. Do not consider other organs. 
+"""
+
+[SCHEMAS.C1]
+variable_name = "C1FX"
+type = "select"
+intro_prompt = ""
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C1. 
+Indicate `No` if the report doesn't mention a fracture of C1. 
+"""
+
+[SCHEMAS.C2]
+variable_name = "C2FX"
+type = "select"
+intro_prompt = ""
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C2. 
+Indicate `No` if the report doesn't mention a fracture of C2. 
+"""
+
+[SCHEMAS.C3]
+variable_name = "C3FX"
+type = "select"
+intro_prompt = ""
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C3. 
+Indicate `No` if the report doesn't mention a fracture of C3. 
+"""
+
+[SCHEMAS.C4]
+variable_name = "C4FX"
+type = "select"
+intro_prompt = ""
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C4. 
+Indicate `No` if the report doesn't mention a fracture of C4. 
+"""
+[SCHEMAS.C5]
+variable_name = "C5FX"
+type = "select"
+intro_prompt = ""
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C5. 
+Indicate `No` if the report doesn't mention a fracture of C5. 
+"""
+[SCHEMAS.C6]
+variable_name = "C6FX"
+type = "select"
+intro_prompt = ""
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C6. 
+Indicate `No` if the report doesn't mention a fracture of C6. 
+"""
+[SCHEMAS.C7]
+variable_name = "C7FX"
+type = "select"
+intro_prompt = ""
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C7. 
+Indicate `No` if the report doesn't mention a fracture of C7. 
+"""
+
+[SCHEMAS.GliomaStatus]
+variable_name = "GliomaStatus"
+type = "select"
+intro_prompt = ""
+options = ["Progression", "Regression", "Stable"]
+show_options_in_hint = true
+hint = """
+Indicate `Progression` if the report indicates that the glioma is most likely progressing / getting worse. 
+Indicate `Regression` if the report indicates that the glioma is most likely improving / responding to treatment. 
+Indicate `Stable` if the report indicates that the glioma is most likely not changed from the prior. 
+"""

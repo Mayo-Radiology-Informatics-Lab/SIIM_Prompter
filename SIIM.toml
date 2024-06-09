@@ -1,0 +1,201 @@
+
+[METADATA]
+
+version = 0.1
+description = "A sample prompt for RadPrompter"
+
+[PROMPTS]
+
+system_prompt = "You are a helpful assistant that has 20 years of experience in reading radiology reports and extracting data elements."
+
+user_prompt_intro = """Carefully review the provided chest CT report (in the <report> tag). Ensure that each data element is accurately captured.
+
+Here is the report:
+<report>
+{{report}}
+</report>
+
+Please pay attention to the following details:
+- Your attention to detail is crucial for maintaining the integrity of the medical records. 
+- You should not confabulate information, and if something is not mentioned, you should assume that it is `Absent` unless otherwise stated.
+- The report may contain additional information that is not relevant to the requested data elements. Please ignore that information.
+- We are interested at findings at the time of scan, not the previous ones, so only consider the impression and findings sections of the report.
+- Do not print anything else other than the provided output format.
+"""
+
+user_prompt_no_cot = """
+I want you to extract the following data element from the report: 
+{{hint}}
+
+Provide a single answer:
+
+"""
+
+user_prompt_cot = """
+I want you to extract the following data element from the report: 
+{{hint}}
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1. your first explanation goes here
+2. your second explanation goes here (if needed)
+3. your third explanation goes here (if needed) 
+</explanation>
+<final_answer>
+final answer goes here
+</final_answer>
+</answer>
+"""
+
+user_prompt_cot_final_answer = """
+Your final answer elements in a valid JSON format and is between <json> and </json> tags:
+
+<json>
+{
+  "{{variable_name}}": "answer"
+}
+</json>
+"""
+
+assistant_cot_response_template = """<answer>
+<initial_answer>
+"""
+
+assistant_final_response_template = """<json>
+{
+  "{{variable_name}}" : \""""
+
+
+[CONSTRUCTOR]
+system = "rdp(system_prompt)"
+user = [
+    "rdp(user_prompt_intro + user_prompt_cot)",
+    "rdp(user_prompt_cot_final_answer)"
+]
+stop_tags = [
+    "</answer>",
+    "</json>"
+]
+response_templates = [
+    "rdp(assistant_cot_response_template)",
+    "rdp(assistant_final_response_template)"
+]
+
+[SCHEMAS]
+[SCHEMAS.PulmonaryEmbolism]
+variable_name = "Pulmonary Embolism"
+type = "select"
+options = ["Present", "Absent"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has definitely, probably, or likely has pulmonary embolus which are also described as filling defects in the pulmonary arteries. 
+Indicate `No` if it is specifically mentioned to not be present, but also if considered unlikely.
+"""
+
+[SCHEMAS.Pneumonia]
+variable_name = "Pneumonia"
+type = "select"
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report indicates the patient mostly likely has pneumonia or developing opacity or density that might represent pneumonia. 
+Indicate `No` if the report indicates the patient mostly likely does not have pneumonia or if pneumonia is not mentioned. 
+"""
+
+[SCHEMAS.LiverMets]
+variable_name = "LiverMets"
+type = "select"
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has or likely 1 or more lesions that are likely metastasis involving their liver. Do not consider other organs. 
+Indicate `No` if the report says the patient has no metastasis of the liver or if it does not mention liver metastases. Do not consider other organs. 
+"""
+
+[SCHEMAS.C1]
+variable_name = "C1FX"
+type = "select"
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C1. 
+Indicate `No` if the report doesn't mention a fracture of C1. 
+"""
+
+[SCHEMAS.C2]
+variable_name = "C2FX"
+type = "select"
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C2 which also includes the odontoid and dens. 
+Indicate `No` if the report doesn't mention a fracture of C2. 
+"""
+
+[SCHEMAS.C3]
+variable_name = "C3FX"
+type = "select"
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C3. 
+Indicate `No` if the report doesn't mention a fracture of C3. 
+"""
+
+[SCHEMAS.C4]
+variable_name = "C4FX"
+type = "select"
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C4. 
+Indicate `No` if the report doesn't mention a fracture of C4. 
+"""
+
+[SCHEMAS.C5]
+variable_name = "C5FX"
+type = "select"
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C5. 
+Indicate `No` if the report doesn't mention a fracture of C5. 
+"""
+
+[SCHEMAS.C6]
+variable_name = "C6FX"
+type = "select"
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C6. 
+Indicate `No` if the report doesn't mention a fracture of C6. 
+"""
+
+[SCHEMAS.C7]
+variable_name = "C7FX"
+type = "select"
+options = ["Yes", "No"]
+show_options_in_hint = true
+hint = """
+Indicate `Yes` if the report explicitly mentions the patient has a fracture of C7. 
+Indicate `No` if the report doesn't mention a fracture of C7. 
+"""
+
+[SCHEMAS.GliomaStatus]
+variable_name = "GliomaStatus"
+type = "select"
+options = ["Progression", "Regression", "Stable", "Pseudoprogression", "Pseudoresponse"]
+show_options_in_hint = true
+hint = """
+Indicate `Progression` if the report indicates that the glioma is most likely progressing or enlarging or growing or recurring or getting worse. 
+Indicate `Pseudoprogression` if the report indicates that the glioma appears to be enlarging, but that this likely due to treatment effects not true tumor growth, also known as pseudoprogression
+Indicate `Pseudoresponse` if the report indicates that the glioma appears to be improving, but that this is likely due to treatment effects, also known as pseudoresponse. 
+Indicate `Regression` if the report indicates that the glioma is most likely improving, decreasing in size, or responding to treatment. 
+Indicate `Stable` if the report indicates that the glioma is not signficantly changed from the prior or if none of the above 4 categories is indicated in teh report. 
+"""

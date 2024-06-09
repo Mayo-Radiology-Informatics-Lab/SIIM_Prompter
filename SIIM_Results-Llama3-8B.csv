@@ -1,0 +1,776 @@
+index,Pulmonary Embolism_response,Pneumonia_response,LiverMets_response,C1FX_response,C2FX_response,C3FX_response,C4FX_response,C5FX_response,C6FX_response,C7FX_response,GliomaStatus_response,ExamClass,Findings
+0,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C1FX
+1,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C1FX
+2,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C1FX
+3,Absent,Absent,Absent,Yes,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,"C1FX,C2FX"
+4,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,"C1FX,C2FX"
+5,Absent,Absent,Absent,Absent,Present,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C2FX
+6,Absent,Absent,Absent,Absent,Present,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C2FX
+7,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C2FX
+8,Absent,Absent,Absent,Yes,Yes,Yes,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C2FX
+9,Absent,Absent,Absent,Absent,Present,Absent,Absent,Present,Present,Absent,Absent,Cervical Spine Fracture,C2FX
+10,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C2FX
+11,Absent,Absent,Absent,Absent,Present,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C2FX
+12,Absent,Absent,Absent,Absent,Absent,Present,Present,Absent,Absent,Absent,Absent,Cervical Spine Fracture,"C2FX,C3FX,C4FX"
+13,Absent,Absent,Absent,Absent,Present,Absent,Absent,Present,Present,Absent,Absent,Cervical Spine Fracture,"C2FX,C5FX,C6FX"
+14,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,"C2FX,C7FX"
+15,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C4FX
+16,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Present,Absent,Absent,Absent,Cervical Spine Fracture,"C4FX,C5FX"
+17,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Present,Absent,Absent,Absent,Cervical Spine Fracture,C5FX
+18,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Present,Absent,Absent,Cervical Spine Fracture,C6FX
+19,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C6FX
+20,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,"C6FX,C7FX"
+21,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Yes,Absent,Cervical Spine Fracture,"C6FX,C7FX"
+22,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Present,Absent,Cervical Spine Fracture,C7FX
+23,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C7FX
+24,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Present,Absent,Cervical Spine Fracture,C7FX
+25,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+26,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+27,Absent,No,No,No,No,No,No,No,No,No,Absent,Cervical Spine Fracture,No
+28,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+29,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+30,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+31,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+32,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+33,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+34,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+35,Absent,No,No,No,No,No,No,No,No,No,Absent,Cervical Spine Fracture,No
+36,Absent,Absent,Absent,Yes,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+37,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+38,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+39,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+40,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+41,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+42,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+43,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+44,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+45,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+46,Absent,No,No,No,No,No,No,No,No,No,Absent,Cervical Spine Fracture,No
+47,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+48,Absent,Absent,Absent,Yes,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+49,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+50,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+51,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+52,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+53,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+54,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+55,Absent,No,No,No,No,No,No,No,No,No,Absent,Cervical Spine Fracture,No
+56,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+57,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+58,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+59,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+60,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+61,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+62,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Present,Absent,Cervical Spine Fracture,No
+63,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+64,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+65,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+66,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+67,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+68,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+69,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Present,Absent,Cervical Spine Fracture,No
+70,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+71,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+72,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+73,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+74,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+75,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+76,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+77,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+78,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+79,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+80,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+81,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+82,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+83,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+84,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+85,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+86,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+87,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+88,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+89,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+90,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+91,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+92,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+93,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+94,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+95,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+96,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+97,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+98,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+99,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+100,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+101,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+102,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+103,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+104,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+105,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+106,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+107,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,IMPROVED
+108,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,IMPROVED
+109,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+110,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,IMPROVED
+111,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+112,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,IMPROVED
+113,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+114,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,IMPROVED
+115,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+116,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+117,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,IMPROVED
+118,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+119,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+120,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+121,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+122,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,IMPROVED
+123,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+124,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,IMPROVED
+125,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,IMPROVED
+126,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+127,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+128,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+129,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,IMPROVED
+130,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+131,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+132,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,IMPROVED
+133,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,IMPROVED
+134,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+135,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,PROGRESSION
+136,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,PROGRESSION
+137,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+138,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+139,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+140,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+141,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+142,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+143,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+144,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+145,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+146,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,PROGRESSION
+147,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+148,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+149,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+150,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+151,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,PROGRESSION
+152,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+153,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,PROGRESSION
+154,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+155,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+156,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+157,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+158,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+159,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+160,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+161,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+162,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+163,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+164,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,PROGRESSION
+165,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+166,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+167,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+168,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+169,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+170,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+171,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+172,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+173,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+174,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+175,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,PROGRESSION
+176,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,PROGRESSION
+177,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+178,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+179,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,PROGRESSION
+180,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+181,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+182,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PROGRESSION
+183,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Glioma progression,PROGRESSION
+184,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,PSEUDOPROGRESSION
+185,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+186,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+187,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+188,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+189,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+190,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+191,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+192,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+193,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+194,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+195,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+196,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+197,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+198,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+199,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+200,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+201,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+202,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+203,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+204,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+205,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+206,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+207,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+208,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+209,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+210,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+211,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+212,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+213,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+214,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+215,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+216,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+217,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+218,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+219,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+220,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+221,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+222,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+223,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+224,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+225,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+226,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+227,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+228,Absent,No,No,No,No,No,No,No,No,No,Stable,Glioma progression,STABLE
+229,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+230,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+231,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+232,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+233,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+234,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+235,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+236,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+237,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+238,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+239,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+240,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+241,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+242,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+243,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+244,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+245,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+246,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+247,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+248,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+249,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+250,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+251,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+252,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+253,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+254,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+255,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+256,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+257,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+258,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+259,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+260,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+261,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+262,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+263,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+264,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+265,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+266,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+267,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+268,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+269,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+270,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+271,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+272,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+273,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+274,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+275,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+276,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+277,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+278,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+279,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+280,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+281,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+282,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+283,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+284,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+285,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+286,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+287,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+288,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Glioma progression,STABLE
+289,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Glioma progression,STABLE
+290,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,IPH
+291,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,IPH
+292,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,IPH
+293,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"IPH,IVH"
+294,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"IPH,SAH,IVH"
+295,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"IPH,SDH"
+296,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,IVH
+297,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"IVH,INFARCT"
+298,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"IVH,IPH"
+299,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"IVH,IPH,SAH,INFARCT"
+300,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"IVH,SAH"
+301,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+302,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+303,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+304,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+305,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+306,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+307,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+308,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+309,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+310,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+311,Absent,No,No,No,No,No,No,No,No,No,Absent,Intracranial hemorrhage,No
+312,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+313,Absent,No,No,No,No,No,No,No,No,No,Absent,Intracranial hemorrhage,No
+314,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+315,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+316,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+317,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+318,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+319,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+320,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+321,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+322,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+323,Absent,No,No,No,No,No,No,No,No,No,Absent,Intracranial hemorrhage,No
+324,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+325,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+326,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+327,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+328,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+329,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+330,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+331,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SAH
+332,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SAH
+333,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SAH
+334,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SAH,SDH,IVH,IPH"
+335,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SAH,IPH"
+336,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SAH,IPH"
+337,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SAH,IPH,IVH"
+338,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SAH,IPH,IVH,SDH"
+339,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SAH,IVH"
+340,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SAH,IVH,IPH"
+341,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+342,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+343,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+344,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+345,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+346,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+347,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+348,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+349,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+350,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+351,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+352,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+353,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+354,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+355,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+356,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+357,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+358,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+359,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+360,Absent,No,No,No,No,No,No,No,No,No,Stable,Intracranial hemorrhage,SDH
+361,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+362,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+363,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+364,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+365,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+366,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+367,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+368,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+369,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+370,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+371,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+372,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+373,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+374,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+375,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+376,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,SDH
+377,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SDH,EDH"
+378,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SDH,EDH"
+379,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SDH,EDH"
+380,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SDH,EDH"
+381,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SDH,EDH"
+382,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SDH,IPH"
+383,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SDH,IPH,FX"
+384,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SDH,SAH"
+385,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SDH,SAH"
+386,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SDH,SAH,IPH"
+387,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SDH,SAH,IPH"
+388,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,"SDH,SAH,IVH"
+389,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+390,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+391,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+392,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+393,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+394,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+395,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+396,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+397,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+398,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+399,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Liver metastases,No
+400,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+401,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+402,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+403,Absent,Absent,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+404,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+405,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+406,Absent,Absent,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+407,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+408,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+409,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+410,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+411,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+412,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+413,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+414,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+415,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+416,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+417,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+418,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+419,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+420,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+421,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+422,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Liver metastases,No
+423,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+424,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+425,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+426,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+427,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+428,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+429,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+430,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+431,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+432,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+433,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Liver metastases,Present
+434,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+435,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+436,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+437,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+438,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+439,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+440,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+441,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Liver metastases,Present
+442,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+443,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Liver metastases,Present
+444,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+445,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+446,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+447,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+448,Absent,No,No,No,No,No,No,No,No,No,No,Pneumonia,No
+449,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+450,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+451,Absent,No,No,No,No,No,No,No,No,No,No,Pneumonia,No
+452,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+453,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+454,Absent,No,No,No,No,No,No,No,No,No,No,Pneumonia,No
+455,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+456,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+457,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+458,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+459,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+460,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+461,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+462,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+463,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+464,Absent,No,No,No,No,No,No,No,No,No,Stable,Pneumonia,No
+465,Absent,No,No,No,No,No,No,No,No,No,No,Pneumonia,No
+466,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+467,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+468,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+469,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+470,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+471,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+472,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+473,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+474,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+475,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+476,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+477,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+478,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+479,Absent,No,No,No,No,No,No,No,No,No,No,Pneumonia,No
+480,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+481,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+482,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+483,Absent,No,No,No,No,No,No,No,No,No,No,Pneumonia,No
+484,Absent,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+485,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+486,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+487,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+488,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+489,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+490,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+491,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+492,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+493,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+494,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+495,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+496,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+497,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+498,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+499,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Yes,Pneumonia,Present
+500,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+501,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+502,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+503,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+504,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+505,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+506,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+507,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+508,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+509,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+510,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+511,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+512,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+513,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+514,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+515,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+516,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+517,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+518,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+519,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+520,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+521,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+522,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+523,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+524,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+525,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+526,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+527,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+528,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+529,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+530,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+531,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+532,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+533,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+534,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+535,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+536,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+537,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+538,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+539,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+540,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+541,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+542,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+543,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+544,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+545,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+546,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+547,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+548,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,Present
+549,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+550,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+551,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+552,Absent,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+553,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+554,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+555,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+556,Absent,No,No,No,No,,,,,,No,Pulmonary Embolism,No
+557,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+558,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+559,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+560,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+561,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+562,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+563,Based,No,No,No,No,,,,,,No,Pulmonary Embolism,No
+564,Based,No,No,No,No,,,,,,No,Pulmonary Embolism,No
+565,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+566,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+567,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+568,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+569,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+570,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+571,Absent,No,No,No,No,,,,,,No,Pulmonary Embolism,No
+572,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+573,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+574,Absent,No,No,No,No,No,No,,,,No,Pulmonary Embolism,No
+575,Present,No,Yes,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+576,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+577,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+578,Absent,No,No,No,No,No,No,,,,No,Pulmonary Embolism,No
+579,Absent,No,No,No,No,No,No,,,,No,Pulmonary Embolism,No
+580,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+581,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+582,Based,No,No,No,No,,,,,,No,Pulmonary Embolism,No
+583,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+584,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+585,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+586,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+587,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+588,Based,No,No,No,No,No,No,,,,No,Pulmonary Embolism,No
+589,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+590,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+591,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+592,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+593,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+594,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+595,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+596,Based,Based,No,No,No,,,,,,No,Pulmonary Embolism,Present
+597,Present,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+598,Absent,Yes,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+599,"'Present'
+
+The","'Yes'
+
+The","'No'
+The","'Absent'
+The",Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+600,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+601,Present,No,No,No,No,No,No,No,No,No,Stable,Pulmonary Embolism,Present
+602,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+603,Present,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+604,Present,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+605,Present,No,Yes,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+606,Present,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+607,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+608,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+609,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+610,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+611,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+612,Absent,Yes,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+613,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+614,Present,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+615,Based,No,No,No,No,No,No,,,,No,Pulmonary Embolism,Present
+616,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+617,Present,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+618,Based,Based,Based,Please,,,,,,,,Pulmonary Embolism,Present
+619,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+620,Present,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+621,Based,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+622,Present,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+623,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+624,Absent,Absent,Absent,Absent,Absent,Absent,Present,Present,Present,Present,Absent,Cervical Spine Fracture,"C4FX,C5FX,C7FX"
+625,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C2FX
+626,Absent,Absent,Absent,Absent,Present,Present,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,"C2FX,C3FX"
+627,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Yes,Absent,Absent,Cervical Spine Fracture,C6FX
+628,Absent,Absent,Absent,Absent,Present,Absent,Absent,Absent,Present,Absent,Absent,Cervical Spine Fracture,C2FX
+629,Absent,Absent,Absent,Absent,Present,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C2FX
+630,Absent,No,No,No,Absent,Absent,Yes,Yes,Absent,Absent,Absent,Cervical Spine Fracture,"C4FX,C5FX"
+631,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Present,Absent,Cervical Spine Fracture,C7FX
+632,Absent,Absent,Absent,Absent,Present,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C2FX
+633,Absent,No,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C2FX
+634,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C1FX
+635,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C2FX
+636,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Present,Present,Absent,Absent,Cervical Spine Fracture,"C5FX,C6FX"
+637,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Present,Absent,Cervical Spine Fracture,C7FX
+638,Absent,Absent,Absent,Absent,Present,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C2FX
+639,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C1FX
+640,Absent,No,No,Absent,Absent,Absent,Absent,Yes,Yes,Absent,Absent,Cervical Spine Fracture,"C5FX,C6FX"
+641,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Present,Present,Absent,Absent,Cervical Spine Fracture,"C5FX,C6FX"
+642,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+643,Absent,Absent,Absent,Absent,Absent,Absent,Present,Present,Present,Present,Absent,Cervical Spine Fracture,C4FX
+644,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,No
+645,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Present,Absent,Absent,Cervical Spine Fracture,C6FX
+646,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C3FX
+647,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Present,Present,Absent,Cervical Spine Fracture,"C6FX,C7FX"
+648,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C1FX
+649,Absent,Absent,Absent,Absent,Absent,Present,Absent,Absent,Absent,Absent,Absent,Cervical Spine Fracture,C3FX
+650,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Present,Absent,Cervical Spine Fracture,C7FX
+651,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+652,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+653,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Intracranial hemorrhage,No
+654,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+655,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+656,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+657,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+658,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+659,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+660,Absent,No,No,No,No,No,No,No,No,No,Absent,Intracranial hemorrhage,No
+661,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+662,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+663,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+664,Absent,No,No,No,No,No,No,No,No,No,Absent,Intracranial hemorrhage,No
+665,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+666,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+667,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+668,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+669,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+670,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+671,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+672,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+673,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+674,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+675,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+676,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+677,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+678,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+679,Absent,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+680,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+681,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+682,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Intracranial hemorrhage,No
+683,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+684,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+685,Absent,Absent,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+686,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+687,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+688,Absent,Absent,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+689,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+690,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+691,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+692,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+693,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+694,Absent,Absent,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+695,Absent,Absent,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+696,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+697,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+698,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,No
+699,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+700,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+701,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+702,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+703,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+704,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+705,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Progression,Liver metastases,Present
+706,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+707,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+708,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+709,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+710,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+711,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+712,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+713,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+714,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+715,Absent,No,Yes,No,No,No,No,No,No,No,No,Liver metastases,Present
+716,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+717,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+718,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+719,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Liver metastases,Present
+720,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+721,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+722,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Liver metastases,Present
+723,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Stable,Liver metastases,Present
+724,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+725,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+726,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+727,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+728,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+729,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+730,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+731,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+732,Absent,Absent,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Liver metastases,Present
+733,Present,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+734,Present,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+735,Present,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+736,Present,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+737,Present,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+738,Present,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+739,Present,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+740,Based,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+741,Present,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+742,Present,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+743,Present,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+744,Present,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+745,Present,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+746,Present,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+747,Present,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+748,Present,Yes,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+749,Present,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+750,Present,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,Present
+751,Present,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,Present
+752,Absent,No,Yes,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+753,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+754,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+755,Absent,Yes,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pulmonary Embolism,No
+756,Absent,No,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+757,Absent,Yes,No,No,No,No,No,No,No,No,No,Pulmonary Embolism,No
+758,Absent,No,No,No,No,No,No,No,No,No,No,Pneumonia,No
+759,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+760,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+761,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+762,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+763,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+764,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+765,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+766,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+767,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No
+768,Absent,No,No,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Absent,Pneumonia,No

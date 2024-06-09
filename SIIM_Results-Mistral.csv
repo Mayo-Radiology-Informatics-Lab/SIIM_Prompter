@@ -1,0 +1,770 @@
+index,Pulmonary Embolism_response,Pneumonia_response,LiverMets_response,C1FX_response,C2FX_response,C3FX_response,C4FX_response,C5FX_response,C6FX_response,C7FX_response,GliomaStatus_response,ExamClass,Findings
+0,,,,,,,,,,,,Cervical Spine Fracture,C1FX
+1,,,,,,,,,,,,Cervical Spine Fracture,C1FX
+2,,,,,,,,,,,,Cervical Spine Fracture,C1FX
+3,,,,,,,,,,,,Cervical Spine Fracture,"C1FX,C2FX"
+4,,,,,,,,,,,,Cervical Spine Fracture,"C1FX,C2FX"
+5,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+6,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+7,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+8,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+9,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+10,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+11,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+12,,,,,,,,,,,,Cervical Spine Fracture,"C2FX,C3FX,C4FX"
+13,,,,,,,,,,,,Cervical Spine Fracture,"C2FX,C5FX,C6FX"
+14,,,,,,,,,,,,Cervical Spine Fracture,"C2FX,C7FX"
+15,,,,,,,,,,,,Cervical Spine Fracture,C4FX
+16,,,,,,,,,,,,Cervical Spine Fracture,"C4FX,C5FX"
+17,,,,,,,,,,,,Cervical Spine Fracture,C5FX
+18,,,,,,,,,,,,Cervical Spine Fracture,C6FX
+19,,,,,,,,,,,,Cervical Spine Fracture,C6FX
+20,,,,,,,,,,,,Cervical Spine Fracture,"C6FX,C7FX"
+21,,,,,,,,,,,,Cervical Spine Fracture,"C6FX,C7FX"
+22,,,,,,,,,,,,Cervical Spine Fracture,C7FX
+23,,,,,,,,,,,,Cervical Spine Fracture,C7FX
+24,,,,,,,,,,,,Cervical Spine Fracture,C7FX
+25,,,,,,,,,,,,Cervical Spine Fracture,No
+26,,,,,,,,,,,,Cervical Spine Fracture,No
+27,,,,,,,,,,,,Cervical Spine Fracture,No
+28,,,,,,,,,,,,Cervical Spine Fracture,No
+29,,,,,,,,,,,,Cervical Spine Fracture,No
+30,,,,,,,,,,,,Cervical Spine Fracture,No
+31,,,,,,,,,,,,Cervical Spine Fracture,No
+32,,,,,,,,,,,,Cervical Spine Fracture,No
+33,,,,,,,,,,,,Cervical Spine Fracture,No
+34,,,,,,,,,,,,Cervical Spine Fracture,No
+35,,,,,,,,,,,,Cervical Spine Fracture,No
+36,,,,,,,,,,,,Cervical Spine Fracture,No
+37,,,,,,,,,,,,Cervical Spine Fracture,No
+38,,,,,,,,,,,,Cervical Spine Fracture,No
+39,,,,,,,,,,,,Cervical Spine Fracture,No
+40,,,,,,,,,,,,Cervical Spine Fracture,No
+41,,,,,,,,,,,,Cervical Spine Fracture,No
+42,,,,,,,,,,,,Cervical Spine Fracture,No
+43,,,,,,,,,,,,Cervical Spine Fracture,No
+44,,,,,,,,,,,,Cervical Spine Fracture,No
+45,,,,,,,,,,,,Cervical Spine Fracture,No
+46,,,,,,,,,,,,Cervical Spine Fracture,No
+47,,,,,,,,,,,,Cervical Spine Fracture,No
+48,,,,,,,,,,,,Cervical Spine Fracture,No
+49,,,,,,,,,,,,Cervical Spine Fracture,No
+50,,,,,,,,,,,,Cervical Spine Fracture,No
+51,,,,,,,,,,,,Cervical Spine Fracture,No
+52,,,,,,,,,,,,Cervical Spine Fracture,No
+53,,,,,,,,,,,,Cervical Spine Fracture,No
+54,,,,,,,,,,,,Cervical Spine Fracture,No
+55,,,,,,,,,,,,Cervical Spine Fracture,No
+56,,,,,,,,,,,,Cervical Spine Fracture,No
+57,,,,,,,,,,,,Cervical Spine Fracture,No
+58,,,,,,,,,,,,Cervical Spine Fracture,No
+59,,,,,,,,,,,,Cervical Spine Fracture,No
+60,,,,,,,,,,,,Cervical Spine Fracture,No
+61,,,,,,,,,,,,Cervical Spine Fracture,No
+62,,,,,,,,,,,,Cervical Spine Fracture,No
+63,,,,,,,,,,,,Cervical Spine Fracture,No
+64,,,,,,,,,,,,Cervical Spine Fracture,No
+65,,,,,,,,,,,,Cervical Spine Fracture,No
+66,,,,,,,,,,,,Cervical Spine Fracture,No
+67,,,,,,,,,,,,Cervical Spine Fracture,No
+68,,,,,,,,,,,,Cervical Spine Fracture,No
+69,,,,,,,,,,,,Cervical Spine Fracture,No
+70,,,,,,,,,,,,Cervical Spine Fracture,No
+71,,,,,,,,,,,,Cervical Spine Fracture,No
+72,,,,,,,,,,,,Cervical Spine Fracture,No
+73,,,,,,,,,,,,Cervical Spine Fracture,No
+74,,,,,,,,,,,,Cervical Spine Fracture,No
+75,,,,,,,,,,,,Cervical Spine Fracture,No
+76,,,,,,,,,,,,Cervical Spine Fracture,No
+77,,,,,,,,,,,,Cervical Spine Fracture,No
+78,,,,,,,,,,,,Cervical Spine Fracture,No
+79,,,,,,,,,,,,Cervical Spine Fracture,No
+80,,,,,,,,,,,,Cervical Spine Fracture,No
+81,,,,,,,,,,,,Cervical Spine Fracture,No
+82,,,,,,,,,,,,Cervical Spine Fracture,No
+83,,,,,,,,,,,,Cervical Spine Fracture,No
+84,,,,,,,,,,,,Cervical Spine Fracture,No
+85,,,,,,,,,,,,Cervical Spine Fracture,No
+86,,,,,,,,,,,,Cervical Spine Fracture,No
+87,,,,,,,,,,,,Cervical Spine Fracture,No
+88,,,,,,,,,,,,Cervical Spine Fracture,No
+89,,,,,,,,,,,,Cervical Spine Fracture,No
+90,,,,,,,,,,,,Cervical Spine Fracture,No
+91,,,,,,,,,,,,Cervical Spine Fracture,No
+92,,,,,,,,,,,,Cervical Spine Fracture,No
+93,,,,,,,,,,,,Cervical Spine Fracture,No
+94,,,,,,,,,,,,Cervical Spine Fracture,No
+95,,,,,,,,,,,,Cervical Spine Fracture,No
+96,,,,,,,,,,,,Cervical Spine Fracture,No
+97,,,,,,,,,,,,Cervical Spine Fracture,No
+98,,,,,,,,,,,,Cervical Spine Fracture,No
+99,,,,,,,,,,,,Cervical Spine Fracture,No
+100,,,,,,,,,,,,Cervical Spine Fracture,No
+101,,,,,,,,,,,,Cervical Spine Fracture,No
+102,,,,,,,,,,,,Cervical Spine Fracture,No
+103,,,,,,,,,,,,Cervical Spine Fracture,No
+104,,,,,,,,,,,,Cervical Spine Fracture,No
+105,,,,,,,,,,,,Cervical Spine Fracture,No
+106,,,,,,,,,,,,Cervical Spine Fracture,No
+107,,,,,,,,,,,,Glioma progression,IMPROVED
+108,,,,,,,,,,,,Glioma progression,IMPROVED
+109,,,,,,,,,,,,Glioma progression,IMPROVED
+110,,,,,,,,,,,,Glioma progression,IMPROVED
+111,,,,,,,,,,,,Glioma progression,IMPROVED
+112,,,,,,,,,,,,Glioma progression,IMPROVED
+113,,,,,,,,,,,,Glioma progression,IMPROVED
+114,,,,,,,,,,,,Glioma progression,IMPROVED
+115,,,,,,,,,,,,Glioma progression,IMPROVED
+116,,,,,,,,,,,,Glioma progression,IMPROVED
+117,,,,,,,,,,,,Glioma progression,IMPROVED
+118,,,,,,,,,,,,Glioma progression,IMPROVED
+119,,,,,,,,,,,,Glioma progression,IMPROVED
+120,,,,,,,,,,,,Glioma progression,IMPROVED
+121,,,,,,,,,,,,Glioma progression,IMPROVED
+122,,,,,,,,,,,,Glioma progression,IMPROVED
+123,,,,,,,,,,,,Glioma progression,IMPROVED
+124,,,,,,,,,,,,Glioma progression,IMPROVED
+125,,,,,,,,,,,,Glioma progression,IMPROVED
+126,,,,,,,,,,,,Glioma progression,IMPROVED
+127,,,,,,,,,,,,Glioma progression,IMPROVED
+128,,,,,,,,,,,,Glioma progression,IMPROVED
+129,,,,,,,,,,,,Glioma progression,IMPROVED
+130,,,,,,,,,,,,Glioma progression,IMPROVED
+131,,,,,,,,,,,,Glioma progression,IMPROVED
+132,,,,,,,,,,,,Glioma progression,IMPROVED
+133,,,,,,,,,,,,Glioma progression,IMPROVED
+134,,,,,,,,,,,,Glioma progression,PROGRESSION
+135,,,,,,,,,,,,Glioma progression,PROGRESSION
+136,,,,,,,,,,,,Glioma progression,PROGRESSION
+137,,,,,,,,,,,,Glioma progression,PROGRESSION
+138,,,,,,,,,,,,Glioma progression,PROGRESSION
+139,,,,,,,,,,,,Glioma progression,PROGRESSION
+140,,,,,,,,,,,,Glioma progression,PROGRESSION
+141,,,,,,,,,,,,Glioma progression,PROGRESSION
+142,,,,,,,,,,,,Glioma progression,PROGRESSION
+143,,,,,,,,,,,,Glioma progression,PROGRESSION
+144,,,,,,,,,,,,Glioma progression,PROGRESSION
+145,,,,,,,,,,,,Glioma progression,PROGRESSION
+146,,,,,,,,,,,,Glioma progression,PROGRESSION
+147,,,,,,,,,,,,Glioma progression,PROGRESSION
+148,,,,,,,,,,,,Glioma progression,PROGRESSION
+149,,,,,,,,,,,,Glioma progression,PROGRESSION
+150,,,,,,,,,,,,Glioma progression,PROGRESSION
+151,,,,,,,,,,,,Glioma progression,PROGRESSION
+152,,,,,,,,,,,,Glioma progression,PROGRESSION
+153,,,,,,,,,,,,Glioma progression,PROGRESSION
+154,,,,,,,,,,,,Glioma progression,PROGRESSION
+155,,,,,,,,,,,,Glioma progression,PROGRESSION
+156,,,,,,,,,,,,Glioma progression,PROGRESSION
+157,,,,,,,,,,,,Glioma progression,PROGRESSION
+158,,,,,,,,,,,,Glioma progression,PROGRESSION
+159,,,,,,,,,,,,Glioma progression,PROGRESSION
+160,,,,,,,,,,,,Glioma progression,PROGRESSION
+161,,,,,,,,,,,,Glioma progression,PROGRESSION
+162,,,,,,,,,,,,Glioma progression,PROGRESSION
+163,,,,,,,,,,,,Glioma progression,PROGRESSION
+164,,,,,,,,,,,,Glioma progression,PROGRESSION
+165,,,,,,,,,,,,Glioma progression,PROGRESSION
+166,,,,,,,,,,,,Glioma progression,PROGRESSION
+167,,,,,,,,,,,,Glioma progression,PROGRESSION
+168,,,,,,,,,,,,Glioma progression,PROGRESSION
+169,,,,,,,,,,,,Glioma progression,PROGRESSION
+170,,,,,,,,,,,,Glioma progression,PROGRESSION
+171,,,,,,,,,,,,Glioma progression,PROGRESSION
+172,,,,,,,,,,,,Glioma progression,PROGRESSION
+173,,,,,,,,,,,,Glioma progression,PROGRESSION
+174,,,,,,,,,,,,Glioma progression,PROGRESSION
+175,,,,,,,,,,,,Glioma progression,PROGRESSION
+176,,,,,,,,,,,,Glioma progression,PROGRESSION
+177,,,,,,,,,,,,Glioma progression,PROGRESSION
+178,,,,,,,,,,,,Glioma progression,PROGRESSION
+179,,,,,,,,,,,,Glioma progression,PROGRESSION
+180,,,,,,,,,,,,Glioma progression,PROGRESSION
+181,,,,,,,,,,,,Glioma progression,PROGRESSION
+182,,,,,,,,,,,,Glioma progression,PROGRESSION
+183,,,,,,,,,,,,Glioma progression,PROGRESSION
+184,,,,,,,,,,,,Glioma progression,PSEUDOPROGRESSION
+185,,,,,,,,,,,,Glioma progression,STABLE
+186,,,,,,,,,,,,Glioma progression,STABLE
+187,,,,,,,,,,,,Glioma progression,STABLE
+188,,,,,,,,,,,,Glioma progression,STABLE
+189,,,,,,,,,,,,Glioma progression,STABLE
+190,,,,,,,,,,,,Glioma progression,STABLE
+191,,,,,,,,,,,,Glioma progression,STABLE
+192,,,,,,,,,,,,Glioma progression,STABLE
+193,,,,,,,,,,,,Glioma progression,STABLE
+194,,,,,,,,,,,,Glioma progression,STABLE
+195,,,,,,,,,,,,Glioma progression,STABLE
+196,,,,,,,,,,,,Glioma progression,STABLE
+197,,,,,,,,,,,,Glioma progression,STABLE
+198,,,,,,,,,,,,Glioma progression,STABLE
+199,,,,,,,,,,,,Glioma progression,STABLE
+200,,,,,,,,,,,,Glioma progression,STABLE
+201,,,,,,,,,,,,Glioma progression,STABLE
+202,,,,,,,,,,,,Glioma progression,STABLE
+203,,,,,,,,,,,,Glioma progression,STABLE
+204,,,,,,,,,,,,Glioma progression,STABLE
+205,,,,,,,,,,,,Glioma progression,STABLE
+206,,,,,,,,,,,,Glioma progression,STABLE
+207,,,,,,,,,,,,Glioma progression,STABLE
+208,,,,,,,,,,,,Glioma progression,STABLE
+209,,,,,,,,,,,,Glioma progression,STABLE
+210,,,,,,,,,,,,Glioma progression,STABLE
+211,,,,,,,,,,,,Glioma progression,STABLE
+212,,,,,,,,,,,,Glioma progression,STABLE
+213,,,,,,,,,,,,Glioma progression,STABLE
+214,,,,,,,,,,,,Glioma progression,STABLE
+215,,,,,,,,,,,,Glioma progression,STABLE
+216,,,,,,,,,,,,Glioma progression,STABLE
+217,,,,,,,,,,,,Glioma progression,STABLE
+218,,,,,,,,,,,,Glioma progression,STABLE
+219,,,,,,,,,,,,Glioma progression,STABLE
+220,,,,,,,,,,,,Glioma progression,STABLE
+221,,,,,,,,,,,,Glioma progression,STABLE
+222,,,,,,,,,,,,Glioma progression,STABLE
+223,,,,,,,,,,,,Glioma progression,STABLE
+224,,,,,,,,,,,,Glioma progression,STABLE
+225,,,,,,,,,,,,Glioma progression,STABLE
+226,,,,,,,,,,,,Glioma progression,STABLE
+227,,,,,,,,,,,,Glioma progression,STABLE
+228,,,,,,,,,,,,Glioma progression,STABLE
+229,,,,,,,,,,,,Glioma progression,STABLE
+230,,,,,,,,,,,,Glioma progression,STABLE
+231,,,,,,,,,,,,Glioma progression,STABLE
+232,,,,,,,,,,,,Glioma progression,STABLE
+233,,,,,,,,,,,,Glioma progression,STABLE
+234,,,,,,,,,,,,Glioma progression,STABLE
+235,,,,,,,,,,,,Glioma progression,STABLE
+236,,,,,,,,,,,,Glioma progression,STABLE
+237,,,,,,,,,,,,Glioma progression,STABLE
+238,,,,,,,,,,,,Glioma progression,STABLE
+239,,,,,,,,,,,,Glioma progression,STABLE
+240,,,,,,,,,,,,Glioma progression,STABLE
+241,,,,,,,,,,,,Glioma progression,STABLE
+242,,,,,,,,,,,,Glioma progression,STABLE
+243,,,,,,,,,,,,Glioma progression,STABLE
+244,,,,,,,,,,,,Glioma progression,STABLE
+245,,,,,,,,,,,,Glioma progression,STABLE
+246,,,,,,,,,,,,Glioma progression,STABLE
+247,,,,,,,,,,,,Glioma progression,STABLE
+248,,,,,,,,,,,,Glioma progression,STABLE
+249,,,,,,,,,,,,Glioma progression,STABLE
+250,,,,,,,,,,,,Glioma progression,STABLE
+251,,,,,,,,,,,,Glioma progression,STABLE
+252,,,,,,,,,,,,Glioma progression,STABLE
+253,,,,,,,,,,,,Glioma progression,STABLE
+254,,,,,,,,,,,,Glioma progression,STABLE
+255,,,,,,,,,,,,Glioma progression,STABLE
+256,,,,,,,,,,,,Glioma progression,STABLE
+257,,,,,,,,,,,,Glioma progression,STABLE
+258,,,,,,,,,,,,Glioma progression,STABLE
+259,,,,,,,,,,,,Glioma progression,STABLE
+260,,,,,,,,,,,,Glioma progression,STABLE
+261,,,,,,,,,,,,Glioma progression,STABLE
+262,,,,,,,,,,,,Glioma progression,STABLE
+263,,,,,,,,,,,,Glioma progression,STABLE
+264,,,,,,,,,,,,Glioma progression,STABLE
+265,,,,,,,,,,,,Glioma progression,STABLE
+266,,,,,,,,,,,,Glioma progression,STABLE
+267,,,,,,,,,,,,Glioma progression,STABLE
+268,,,,,,,,,,,,Glioma progression,STABLE
+269,,,,,,,,,,,,Glioma progression,STABLE
+270,,,,,,,,,,,,Glioma progression,STABLE
+271,,,,,,,,,,,,Glioma progression,STABLE
+272,,,,,,,,,,,,Glioma progression,STABLE
+273,,,,,,,,,,,,Glioma progression,STABLE
+274,,,,,,,,,,,,Glioma progression,STABLE
+275,,,,,,,,,,,,Glioma progression,STABLE
+276,,,,,,,,,,,,Glioma progression,STABLE
+277,,,,,,,,,,,,Glioma progression,STABLE
+278,,,,,,,,,,,,Glioma progression,STABLE
+279,,,,,,,,,,,,Glioma progression,STABLE
+280,,,,,,,,,,,,Glioma progression,STABLE
+281,,,,,,,,,,,,Glioma progression,STABLE
+282,,,,,,,,,,,,Glioma progression,STABLE
+283,,,,,,,,,,,,Glioma progression,STABLE
+284,,,,,,,,,,,,Glioma progression,STABLE
+285,,,,,,,,,,,,Glioma progression,STABLE
+286,,,,,,,,,,,,Glioma progression,STABLE
+287,,,,,,,,,,,,Glioma progression,STABLE
+288,,,,,,,,,,,,Glioma progression,STABLE
+289,,,,,,,,,,,,Glioma progression,STABLE
+290,,,,,,,,,,,,Intracranial hemorrhage,IPH
+291,,,,,,,,,,,,Intracranial hemorrhage,IPH
+292,,,,,,,,,,,,Intracranial hemorrhage,IPH
+293,,,,,,,,,,,,Intracranial hemorrhage,"IPH,IVH"
+294,,,,,,,,,,,,Intracranial hemorrhage,"IPH,SAH,IVH"
+295,,,,,,,,,,,,Intracranial hemorrhage,"IPH,SDH"
+296,,,,,,,,,,,,Intracranial hemorrhage,IVH
+297,,,,,,,,,,,,Intracranial hemorrhage,"IVH,INFARCT"
+298,,,,,,,,,,,,Intracranial hemorrhage,"IVH,IPH"
+299,,,,,,,,,,,,Intracranial hemorrhage,"IVH,IPH,SAH,INFARCT"
+300,,,,,,,,,,,,Intracranial hemorrhage,"IVH,SAH"
+301,,,,,,,,,,,,Intracranial hemorrhage,No
+302,,,,,,,,,,,,Intracranial hemorrhage,No
+303,,,,,,,,,,,,Intracranial hemorrhage,No
+304,,,,,,,,,,,,Intracranial hemorrhage,No
+305,,,,,,,,,,,,Intracranial hemorrhage,No
+306,,,,,,,,,,,,Intracranial hemorrhage,No
+307,,,,,,,,,,,,Intracranial hemorrhage,No
+308,,,,,,,,,,,,Intracranial hemorrhage,No
+309,,,,,,,,,,,,Intracranial hemorrhage,No
+310,,,,,,,,,,,,Intracranial hemorrhage,No
+311,,,,,,,,,,,,Intracranial hemorrhage,No
+312,,,,,,,,,,,,Intracranial hemorrhage,No
+313,,,,,,,,,,,,Intracranial hemorrhage,No
+314,,,,,,,,,,,,Intracranial hemorrhage,No
+315,,,,,,,,,,,,Intracranial hemorrhage,No
+316,,,,,,,,,,,,Intracranial hemorrhage,No
+317,,,,,,,,,,,,Intracranial hemorrhage,No
+318,,,,,,,,,,,,Intracranial hemorrhage,No
+319,,,,,,,,,,,,Intracranial hemorrhage,No
+320,,,,,,,,,,,,Intracranial hemorrhage,No
+321,,,,,,,,,,,,Intracranial hemorrhage,No
+322,,,,,,,,,,,,Intracranial hemorrhage,No
+323,,,,,,,,,,,,Intracranial hemorrhage,No
+324,,,,,,,,,,,,Intracranial hemorrhage,No
+325,,,,,,,,,,,,Intracranial hemorrhage,No
+326,,,,,,,,,,,,Intracranial hemorrhage,No
+327,,,,,,,,,,,,Intracranial hemorrhage,No
+328,,,,,,,,,,,,Intracranial hemorrhage,No
+329,,,,,,,,,,,,Intracranial hemorrhage,No
+330,,,,,,,,,,,,Intracranial hemorrhage,No
+331,,,,,,,,,,,,Intracranial hemorrhage,SAH
+332,,,,,,,,,,,,Intracranial hemorrhage,SAH
+333,,,,,,,,,,,,Intracranial hemorrhage,SAH
+334,,,,,,,,,,,,Intracranial hemorrhage,"SAH,SDH,IVH,IPH"
+335,,,,,,,,,,,,Intracranial hemorrhage,"SAH,IPH"
+336,,,,,,,,,,,,Intracranial hemorrhage,"SAH,IPH"
+337,,,,,,,,,,,,Intracranial hemorrhage,"SAH,IPH,IVH"
+338,,,,,,,,,,,,Intracranial hemorrhage,"SAH,IPH,IVH,SDH"
+339,,,,,,,,,,,,Intracranial hemorrhage,"SAH,IVH"
+340,,,,,,,,,,,,Intracranial hemorrhage,"SAH,IVH,IPH"
+341,,,,,,,,,,,,Intracranial hemorrhage,SDH
+342,,,,,,,,,,,,Intracranial hemorrhage,SDH
+343,,,,,,,,,,,,Intracranial hemorrhage,SDH
+344,,,,,,,,,,,,Intracranial hemorrhage,SDH
+345,,,,,,,,,,,,Intracranial hemorrhage,SDH
+346,,,,,,,,,,,,Intracranial hemorrhage,SDH
+347,,,,,,,,,,,,Intracranial hemorrhage,SDH
+348,,,,,,,,,,,,Intracranial hemorrhage,SDH
+349,,,,,,,,,,,,Intracranial hemorrhage,SDH
+350,,,,,,,,,,,,Intracranial hemorrhage,SDH
+351,,,,,,,,,,,,Intracranial hemorrhage,SDH
+352,,,,,,,,,,,,Intracranial hemorrhage,SDH
+353,,,,,,,,,,,,Intracranial hemorrhage,SDH
+354,,,,,,,,,,,,Intracranial hemorrhage,SDH
+355,,,,,,,,,,,,Intracranial hemorrhage,SDH
+356,,,,,,,,,,,,Intracranial hemorrhage,SDH
+357,,,,,,,,,,,,Intracranial hemorrhage,SDH
+358,,,,,,,,,,,,Intracranial hemorrhage,SDH
+359,,,,,,,,,,,,Intracranial hemorrhage,SDH
+360,,,,,,,,,,,,Intracranial hemorrhage,SDH
+361,,,,,,,,,,,,Intracranial hemorrhage,SDH
+362,,,,,,,,,,,,Intracranial hemorrhage,SDH
+363,,,,,,,,,,,,Intracranial hemorrhage,SDH
+364,,,,,,,,,,,,Intracranial hemorrhage,SDH
+365,,,,,,,,,,,,Intracranial hemorrhage,SDH
+366,,,,,,,,,,,,Intracranial hemorrhage,SDH
+367,,,,,,,,,,,,Intracranial hemorrhage,SDH
+368,,,,,,,,,,,,Intracranial hemorrhage,SDH
+369,,,,,,,,,,,,Intracranial hemorrhage,SDH
+370,,,,,,,,,,,,Intracranial hemorrhage,SDH
+371,,,,,,,,,,,,Intracranial hemorrhage,SDH
+372,,,,,,,,,,,,Intracranial hemorrhage,SDH
+373,,,,,,,,,,,,Intracranial hemorrhage,SDH
+374,,,,,,,,,,,,Intracranial hemorrhage,SDH
+375,,,,,,,,,,,,Intracranial hemorrhage,SDH
+376,,,,,,,,,,,,Intracranial hemorrhage,SDH
+377,,,,,,,,,,,,Intracranial hemorrhage,"SDH,EDH"
+378,,,,,,,,,,,,Intracranial hemorrhage,"SDH,EDH"
+379,,,,,,,,,,,,Intracranial hemorrhage,"SDH,EDH"
+380,,,,,,,,,,,,Intracranial hemorrhage,"SDH,EDH"
+381,,,,,,,,,,,,Intracranial hemorrhage,"SDH,EDH"
+382,,,,,,,,,,,,Intracranial hemorrhage,"SDH,IPH"
+383,,,,,,,,,,,,Intracranial hemorrhage,"SDH,IPH,FX"
+384,,,,,,,,,,,,Intracranial hemorrhage,"SDH,SAH"
+385,,,,,,,,,,,,Intracranial hemorrhage,"SDH,SAH"
+386,,,,,,,,,,,,Intracranial hemorrhage,"SDH,SAH,IPH"
+387,,,,,,,,,,,,Intracranial hemorrhage,"SDH,SAH,IPH"
+388,,,,,,,,,,,,Intracranial hemorrhage,"SDH,SAH,IVH"
+389,,,,,,,,,,,,Liver metastases,No
+390,,,,,,,,,,,,Liver metastases,No
+391,,,,,,,,,,,,Liver metastases,No
+392,,,,,,,,,,,,Liver metastases,No
+393,,,,,,,,,,,,Liver metastases,No
+394,,,,,,,,,,,,Liver metastases,No
+395,,,,,,,,,,,,Liver metastases,No
+396,,,,,,,,,,,,Liver metastases,No
+397,,,,,,,,,,,,Liver metastases,No
+398,,,,,,,,,,,,Liver metastases,No
+399,,,,,,,,,,,,Liver metastases,No
+400,,,,,,,,,,,,Liver metastases,No
+401,,,,,,,,,,,,Liver metastases,No
+402,,,,,,,,,,,,Liver metastases,No
+403,,,,,,,,,,,,Liver metastases,No
+404,,,,,,,,,,,,Liver metastases,No
+405,,,,,,,,,,,,Liver metastases,No
+406,,,,,,,,,,,,Liver metastases,No
+407,,,,,,,,,,,,Liver metastases,No
+408,,,,,,,,,,,,Liver metastases,No
+409,,,,,,,,,,,,Liver metastases,No
+410,,,,,,,,,,,,Liver metastases,No
+411,,,,,,,,,,,,Liver metastases,No
+412,,,,,,,,,,,,Liver metastases,No
+413,,,,,,,,,,,,Liver metastases,No
+414,,,,,,,,,,,,Liver metastases,No
+415,,,,,,,,,,,,Liver metastases,No
+416,,,,,,,,,,,,Liver metastases,No
+417,,,,,,,,,,,,Liver metastases,No
+418,,,,,,,,,,,,Liver metastases,No
+419,,,,,,,,,,,,Liver metastases,No
+420,,,,,,,,,,,,Liver metastases,No
+421,,,,,,,,,,,,Liver metastases,No
+422,,,,,,,,,,,,Liver metastases,No
+423,,,,,,,,,,,,Liver metastases,Yes
+424,,,,,,,,,,,,Liver metastases,Yes
+425,,,,,,,,,,,,Liver metastases,Yes
+426,,,,,,,,,,,,Liver metastases,Yes
+427,,,,,,,,,,,,Liver metastases,Yes
+428,,,,,,,,,,,,Liver metastases,Yes
+429,,,,,,,,,,,,Liver metastases,Yes
+430,,,,,,,,,,,,Liver metastases,Yes
+431,,,,,,,,,,,,Liver metastases,Yes
+432,,,,,,,,,,,,Liver metastases,Yes
+433,,,,,,,,,,,,Liver metastases,Yes
+434,,,,,,,,,,,,Liver metastases,Yes
+435,,,,,,,,,,,,Liver metastases,Yes
+436,,,,,,,,,,,,Liver metastases,Yes
+437,,,,,,,,,,,,Liver metastases,Yes
+438,,,,,,,,,,,,Liver metastases,Yes
+439,,,,,,,,,,,,Liver metastases,Yes
+440,,,,,,,,,,,,Liver metastases,Yes
+441,,,,,,,,,,,,Liver metastases,Yes
+442,,,,,,,,,,,,Liver metastases,Yes
+443,,,,,,,,,,,,Liver metastases,Yes
+444,,,,,,,,,,,,Pneumonia,No
+445,,,,,,,,,,,,Pneumonia,No
+446,,,,,,,,,,,,Pneumonia,No
+447,,,,,,,,,,,,Pneumonia,No
+448,,,,,,,,,,,,Pneumonia,No
+449,,,,,,,,,,,,Pneumonia,No
+450,,,,,,,,,,,,Pneumonia,No
+451,,,,,,,,,,,,Pneumonia,No
+452,,,,,,,,,,,,Pneumonia,No
+453,,,,,,,,,,,,Pneumonia,No
+454,,,,,,,,,,,,Pneumonia,No
+455,,,,,,,,,,,,Pneumonia,No
+456,,,,,,,,,,,,Pneumonia,No
+457,,,,,,,,,,,,Pneumonia,No
+458,,,,,,,,,,,,Pneumonia,No
+459,,,,,,,,,,,,Pneumonia,No
+460,,,,,,,,,,,,Pneumonia,No
+461,,,,,,,,,,,,Pneumonia,No
+462,,,,,,,,,,,,Pneumonia,No
+463,,,,,,,,,,,,Pneumonia,No
+464,,,,,,,,,,,,Pneumonia,No
+465,,,,,,,,,,,,Pneumonia,No
+466,,,,,,,,,,,,Pneumonia,No
+467,,,,,,,,,,,,Pneumonia,No
+468,,,,,,,,,,,,Pneumonia,No
+469,,,,,,,,,,,,Pneumonia,No
+470,,,,,,,,,,,,Pneumonia,No
+471,,,,,,,,,,,,Pneumonia,No
+472,,,,,,,,,,,,Pneumonia,No
+473,,,,,,,,,,,,Pneumonia,No
+474,,,,,,,,,,,,Pneumonia,No
+475,,,,,,,,,,,,Pneumonia,No
+476,,,,,,,,,,,,Pneumonia,No
+477,,,,,,,,,,,,Pneumonia,No
+478,,,,,,,,,,,,Pneumonia,No
+479,,,,,,,,,,,,Pneumonia,No
+480,,,,,,,,,,,,Pneumonia,No
+481,,,,,,,,,,,,Pneumonia,No
+482,,,,,,,,,,,,Pneumonia,No
+483,,,,,,,,,,,,Pneumonia,No
+484,,,,,,,,,,,,Pneumonia,No
+485,,,,,,,,,,,,Pneumonia,No
+486,,,,,,,,,,,,Pneumonia,Yes
+487,,,,,,,,,,,,Pneumonia,Yes
+488,,,,,,,,,,,,Pneumonia,Yes
+489,,,,,,,,,,,,Pneumonia,Yes
+490,,,,,,,,,,,,Pneumonia,Yes
+491,,,,,,,,,,,,Pneumonia,Yes
+492,,,,,,,,,,,,Pneumonia,Yes
+493,,,,,,,,,,,,Pneumonia,Yes
+494,,,,,,,,,,,,Pneumonia,Yes
+495,,,,,,,,,,,,Pneumonia,Yes
+496,,,,,,,,,,,,Pneumonia,Yes
+497,,,,,,,,,,,,Pneumonia,Yes
+498,,,,,,,,,,,,Pneumonia,Yes
+499,,,,,,,,,,,,Pneumonia,Yes
+500,,,,,,,,,,,,Pneumonia,Yes
+501,,,,,,,,,,,,Pneumonia,Yes
+502,,,,,,,,,,,,Pneumonia,Yes
+503,,,,,,,,,,,,Pneumonia,Yes
+504,,,,,,,,,,,,Pneumonia,Yes
+505,,,,,,,,,,,,Pneumonia,Yes
+506,,,,,,,,,,,,Pneumonia,Yes
+507,,,,,,,,,,,,Pneumonia,Yes
+508,,,,,,,,,,,,Pneumonia,Yes
+509,,,,,,,,,,,,Pneumonia,Yes
+510,,,,,,,,,,,,Pneumonia,Yes
+511,,,,,,,,,,,,Pneumonia,Yes
+512,,,,,,,,,,,,Pneumonia,Yes
+513,,,,,,,,,,,,Pneumonia,Yes
+514,,,,,,,,,,,,Pneumonia,Yes
+515,,,,,,,,,,,,Pneumonia,Yes
+516,,,,,,,,,,,,Pneumonia,Yes
+517,,,,,,,,,,,,Pneumonia,Yes
+518,,,,,,,,,,,,Pneumonia,Yes
+519,,,,,,,,,,,,Pneumonia,Yes
+520,,,,,,,,,,,,Pneumonia,Yes
+521,,,,,,,,,,,,Pneumonia,Yes
+522,,,,,,,,,,,,Pneumonia,Yes
+523,,,,,,,,,,,,Pneumonia,Yes
+524,,,,,,,,,,,,Pneumonia,Yes
+525,,,,,,,,,,,,Pneumonia,Yes
+526,,,,,,,,,,,,Pneumonia,Yes
+527,,,,,,,,,,,,Pneumonia,Yes
+528,,,,,,,,,,,,Pneumonia,Yes
+529,,,,,,,,,,,,Pneumonia,Yes
+530,,,,,,,,,,,,Pneumonia,Yes
+531,,,,,,,,,,,,Pneumonia,Yes
+532,,,,,,,,,,,,Pneumonia,Yes
+533,,,,,,,,,,,,Pneumonia,Yes
+534,,,,,,,,,,,,Pneumonia,Yes
+535,,,,,,,,,,,,Pneumonia,Yes
+536,,,,,,,,,,,,Pneumonia,Yes
+537,,,,,,,,,,,,Pneumonia,Yes
+538,,,,,,,,,,,,Pneumonia,Yes
+539,,,,,,,,,,,,Pneumonia,Yes
+540,,,,,,,,,,,,Pneumonia,Yes
+541,,,,,,,,,,,,Pneumonia,Yes
+542,,,,,,,,,,,,Pneumonia,Yes
+543,,,,,,,,,,,,Pneumonia,Yes
+544,,,,,,,,,,,,Pneumonia,Yes
+545,,,,,,,,,,,,Pneumonia,Yes
+546,,,,,,,,,,,,Pneumonia,Yes
+547,,,,,,,,,,,,Pneumonia,Yes
+548,,,,,,,,,,,,Pneumonia,Yes
+549,,,,,,,,,,,,Pulmonary Embolism,No
+550,,,,,,,,,,,,Pulmonary Embolism,No
+551,,,,,,,,,,,,Pulmonary Embolism,No
+552,,,,,,,,,,,,Pulmonary Embolism,No
+553,,,,,,,,,,,,Pulmonary Embolism,No
+554,,,,,,,,,,,,Pulmonary Embolism,No
+555,,,,,,,,,,,,Pulmonary Embolism,No
+556,,,,,,,,,,,,Pulmonary Embolism,No
+557,,,,,,,,,,,,Pulmonary Embolism,No
+558,,,,,,,,,,,,Pulmonary Embolism,No
+559,,,,,,,,,,,,Pulmonary Embolism,No
+560,,,,,,,,,,,,Pulmonary Embolism,No
+561,,,,,,,,,,,,Pulmonary Embolism,No
+562,,,,,,,,,,,,Pulmonary Embolism,No
+563,,,,,,,,,,,,Pulmonary Embolism,No
+564,,,,,,,,,,,,Pulmonary Embolism,No
+565,,,,,,,,,,,,Pulmonary Embolism,No
+566,,,,,,,,,,,,Pulmonary Embolism,No
+567,,,,,,,,,,,,Pulmonary Embolism,No
+568,,,,,,,,,,,,Pulmonary Embolism,No
+569,,,,,,,,,,,,Pulmonary Embolism,No
+570,,,,,,,,,,,,Pulmonary Embolism,No
+571,,,,,,,,,,,,Pulmonary Embolism,No
+572,,,,,,,,,,,,Pulmonary Embolism,No
+573,,,,,,,,,,,,Pulmonary Embolism,No
+574,,,,,,,,,,,,Pulmonary Embolism,No
+575,,,,,,,,,,,,Pulmonary Embolism,No
+576,,,,,,,,,,,,Pulmonary Embolism,No
+577,,,,,,,,,,,,Pulmonary Embolism,No
+578,,,,,,,,,,,,Pulmonary Embolism,No
+579,,,,,,,,,,,,Pulmonary Embolism,No
+580,,,,,,,,,,,,Pulmonary Embolism,No
+581,,,,,,,,,,,,Pulmonary Embolism,No
+582,,,,,,,,,,,,Pulmonary Embolism,No
+583,,,,,,,,,,,,Pulmonary Embolism,No
+584,,,,,,,,,,,,Pulmonary Embolism,No
+585,,,,,,,,,,,,Pulmonary Embolism,No
+586,,,,,,,,,,,,Pulmonary Embolism,No
+587,,,,,,,,,,,,Pulmonary Embolism,No
+588,,,,,,,,,,,,Pulmonary Embolism,No
+589,,,,,,,,,,,,Pulmonary Embolism,No
+590,,,,,,,,,,,,Pulmonary Embolism,No
+591,,,,,,,,,,,,Pulmonary Embolism,No
+592,,,,,,,,,,,,Pulmonary Embolism,Yes
+593,,,,,,,,,,,,Pulmonary Embolism,Yes
+594,,,,,,,,,,,,Pulmonary Embolism,Yes
+595,,,,,,,,,,,,Pulmonary Embolism,Yes
+596,,,,,,,,,,,,Pulmonary Embolism,Yes
+597,,,,,,,,,,,,Pulmonary Embolism,Yes
+598,,,,,,,,,,,,Pulmonary Embolism,Yes
+599,,,,,,,,,,,,Pulmonary Embolism,Yes
+600,,,,,,,,,,,,Pulmonary Embolism,Yes
+601,,,,,,,,,,,,Pulmonary Embolism,Yes
+602,,,,,,,,,,,,Pulmonary Embolism,Yes
+603,,,,,,,,,,,,Pulmonary Embolism,Yes
+604,,,,,,,,,,,,Pulmonary Embolism,Yes
+605,,,,,,,,,,,,Pulmonary Embolism,Yes
+606,,,,,,,,,,,,Pulmonary Embolism,Yes
+607,,,,,,,,,,,,Pulmonary Embolism,Yes
+608,,,,,,,,,,,,Pulmonary Embolism,Yes
+609,,,,,,,,,,,,Pulmonary Embolism,Yes
+610,,,,,,,,,,,,Pulmonary Embolism,Yes
+611,,,,,,,,,,,,Pulmonary Embolism,Yes
+612,,,,,,,,,,,,Pulmonary Embolism,Yes
+613,,,,,,,,,,,,Pulmonary Embolism,Yes
+614,,,,,,,,,,,,Pulmonary Embolism,Yes
+615,,,,,,,,,,,,Pulmonary Embolism,Yes
+616,,,,,,,,,,,,Pulmonary Embolism,Yes
+617,,,,,,,,,,,,Pulmonary Embolism,Yes
+618,,,,,,,,,,,,Pulmonary Embolism,Yes
+619,,,,,,,,,,,,Pulmonary Embolism,Yes
+620,,,,,,,,,,,,Pulmonary Embolism,Yes
+621,,,,,,,,,,,,Pulmonary Embolism,Yes
+622,,,,,,,,,,,,Pulmonary Embolism,Yes
+623,,,,,,,,,,,,Pulmonary Embolism,Yes
+624,,,,,,,,,,,,Cervical Spine Fracture,"C4FX,C5FX,C7FX"
+625,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+626,,,,,,,,,,,,Cervical Spine Fracture,"C2FX,C3FX"
+627,,,,,,,,,,,,Cervical Spine Fracture,C6FX
+628,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+629,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+630,,,,,,,,,,,,Cervical Spine Fracture,"C4FX,C5FX"
+631,,,,,,,,,,,,Cervical Spine Fracture,C7FX
+632,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+633,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+634,,,,,,,,,,,,Cervical Spine Fracture,C1FX
+635,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+636,,,,,,,,,,,,Cervical Spine Fracture,"C5FX,C6FX"
+637,,,,,,,,,,,,Cervical Spine Fracture,C7FX
+638,,,,,,,,,,,,Cervical Spine Fracture,C2FX
+639,,,,,,,,,,,,Cervical Spine Fracture,C1FX
+640,,,,,,,,,,,,Cervical Spine Fracture,"C5FX,C6FX"
+641,,,,,,,,,,,,Cervical Spine Fracture,"C5FX,C6FX"
+642,,,,,,,,,,,,Cervical Spine Fracture,No
+643,,,,,,,,,,,,Cervical Spine Fracture,C4FX
+644,,,,,,,,,,,,Cervical Spine Fracture,No
+645,,,,,,,,,,,,Cervical Spine Fracture,C6FX
+646,,,,,,,,,,,,Cervical Spine Fracture,C3FX
+647,,,,,,,,,,,,Cervical Spine Fracture,"C6FX,C7FX"
+648,,,,,,,,,,,,Cervical Spine Fracture,C1FX
+649,,,,,,,,,,,,Cervical Spine Fracture,C3FX
+650,,,,,,,,,,,,Cervical Spine Fracture,C7FX
+651,,,,,,,,,,,,Intracranial hemorrhage,No
+652,,,,,,,,,,,,Intracranial hemorrhage,No
+653,,,,,,,,,,,,Intracranial hemorrhage,No
+654,,,,,,,,,,,,Intracranial hemorrhage,No
+655,,,,,,,,,,,,Intracranial hemorrhage,No
+656,,,,,,,,,,,,Intracranial hemorrhage,No
+657,,,,,,,,,,,,Intracranial hemorrhage,No
+658,,,,,,,,,,,,Intracranial hemorrhage,No
+659,,,,,,,,,,,,Intracranial hemorrhage,No
+660,,,,,,,,,,,,Intracranial hemorrhage,No
+661,,,,,,,,,,,,Intracranial hemorrhage,No
+662,,,,,,,,,,,,Intracranial hemorrhage,No
+663,,,,,,,,,,,,Intracranial hemorrhage,No
+664,,,,,,,,,,,,Intracranial hemorrhage,No
+665,,,,,,,,,,,,Intracranial hemorrhage,No
+666,,,,,,,,,,,,Intracranial hemorrhage,No
+667,,,,,,,,,,,,Intracranial hemorrhage,No
+668,,,,,,,,,,,,Intracranial hemorrhage,No
+669,,,,,,,,,,,,Intracranial hemorrhage,No
+670,,,,,,,,,,,,Intracranial hemorrhage,No
+671,,,,,,,,,,,,Intracranial hemorrhage,No
+672,,,,,,,,,,,,Intracranial hemorrhage,No
+673,,,,,,,,,,,,Intracranial hemorrhage,No
+674,,,,,,,,,,,,Intracranial hemorrhage,No
+675,,,,,,,,,,,,Intracranial hemorrhage,No
+676,,,,,,,,,,,,Intracranial hemorrhage,No
+677,,,,,,,,,,,,Intracranial hemorrhage,No
+678,,,,,,,,,,,,Intracranial hemorrhage,No
+679,,,,,,,,,,,,Intracranial hemorrhage,No
+680,,,,,,,,,,,,Intracranial hemorrhage,No
+681,,,,,,,,,,,,Intracranial hemorrhage,No
+682,,,,,,,,,,,,Intracranial hemorrhage,No
+683,,,,,,,,,,,,Liver metastases,No
+684,,,,,,,,,,,,Liver metastases,No
+685,,,,,,,,,,,,Liver metastases,No
+686,,,,,,,,,,,,Liver metastases,No
+687,,,,,,,,,,,,Liver metastases,No
+688,,,,,,,,,,,,Liver metastases,No
+689,,,,,,,,,,,,Liver metastases,No
+690,,,,,,,,,,,,Liver metastases,No
+691,,,,,,,,,,,,Liver metastases,No
+692,,,,,,,,,,,,Liver metastases,No
+693,,,,,,,,,,,,Liver metastases,No
+694,,,,,,,,,,,,Liver metastases,No
+695,,,,,,,,,,,,Liver metastases,No
+696,,,,,,,,,,,,Liver metastases,No
+697,,,,,,,,,,,,Liver metastases,No
+698,,,,,,,,,,,,Liver metastases,No
+699,,,,,,,,,,,,Liver metastases,Yes
+700,,,,,,,,,,,,Liver metastases,Yes
+701,,,,,,,,,,,,Liver metastases,Yes
+702,,,,,,,,,,,,Liver metastases,Yes
+703,,,,,,,,,,,,Liver metastases,Yes
+704,,,,,,,,,,,,Liver metastases,Yes
+705,,,,,,,,,,,,Liver metastases,Yes
+706,,,,,,,,,,,,Liver metastases,Yes
+707,,,,,,,,,,,,Liver metastases,Yes
+708,,,,,,,,,,,,Liver metastases,Yes
+709,,,,,,,,,,,,Liver metastases,Yes
+710,,,,,,,,,,,,Liver metastases,Yes
+711,,,,,,,,,,,,Liver metastases,Yes
+712,,,,,,,,,,,,Liver metastases,Yes
+713,,,,,,,,,,,,Liver metastases,Yes
+714,,,,,,,,,,,,Liver metastases,Yes
+715,,,,,,,,,,,,Liver metastases,Yes
+716,,,,,,,,,,,,Liver metastases,Yes
+717,,,,,,,,,,,,Liver metastases,Yes
+718,,,,,,,,,,,,Liver metastases,Yes
+719,,,,,,,,,,,,Liver metastases,Yes
+720,,,,,,,,,,,,Liver metastases,Yes
+721,,,,,,,,,,,,Liver metastases,Yes
+722,,,,,,,,,,,,Liver metastases,Yes
+723,,,,,,,,,,,,Liver metastases,Yes
+724,,,,,,,,,,,,Liver metastases,Yes
+725,,,,,,,,,,,,Liver metastases,Yes
+726,,,,,,,,,,,,Liver metastases,Yes
+727,,,,,,,,,,,,Liver metastases,Yes
+728,,,,,,,,,,,,Liver metastases,Yes
+729,,,,,,,,,,,,Liver metastases,Yes
+730,,,,,,,,,,,,Liver metastases,Yes
+731,,,,,,,,,,,,Liver metastases,Yes
+732,,,,,,,,,,,,Liver metastases,Yes
+733,,,,,,,,,,,,Pulmonary Embolism,Yes
+734,,,,,,,,,,,,Pulmonary Embolism,Yes
+735,,,,,,,,,,,,Pulmonary Embolism,Yes
+736,,,,,,,,,,,,Pulmonary Embolism,Yes
+737,,,,,,,,,,,,Pulmonary Embolism,Yes
+738,,,,,,,,,,,,Pulmonary Embolism,Yes
+739,,,,,,,,,,,,Pulmonary Embolism,Yes
+740,,,,,,,,,,,,Pulmonary Embolism,Yes
+741,,,,,,,,,,,,Pulmonary Embolism,Yes
+742,,,,,,,,,,,,Pulmonary Embolism,Yes
+743,,,,,,,,,,,,Pulmonary Embolism,Yes
+744,,,,,,,,,,,,Pulmonary Embolism,Yes
+745,,,,,,,,,,,,Pulmonary Embolism,Yes
+746,,,,,,,,,,,,Pulmonary Embolism,Yes
+747,,,,,,,,,,,,Pulmonary Embolism,Yes
+748,,,,,,,,,,,,Pulmonary Embolism,Yes
+749,,,,,,,,,,,,Pulmonary Embolism,Yes
+750,,,,,,,,,,,,Pulmonary Embolism,Yes
+751,,,,,,,,,,,,Pulmonary Embolism,Yes
+752,,,,,,,,,,,,Pulmonary Embolism,No
+753,,,,,,,,,,,,Pulmonary Embolism,No
+754,,,,,,,,,,,,Pulmonary Embolism,No
+755,,,,,,,,,,,,Pulmonary Embolism,No
+756,,,,,,,,,,,,Pulmonary Embolism,No
+757,,,,,,,,,,,,Pulmonary Embolism,No
+758,,,,,,,,,,,,Pneumonia,No
+759,,,,,,,,,,,,Pneumonia,No
+760,,,,,,,,,,,,Pneumonia,No
+761,,,,,,,,,,,,Pneumonia,No
+762,,,,,,,,,,,,Pneumonia,No
+763,,,,,,,,,,,,Pneumonia,No
+764,,,,,,,,,,,,Pneumonia,No
+765,,,,,,,,,,,,Pneumonia,No
+766,,,,,,,,,,,,Pneumonia,No
+767,,,,,,,,,,,,Pneumonia,No
+768,,,,,,,,,,,,Pneumonia,No

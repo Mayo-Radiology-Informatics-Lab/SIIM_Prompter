@@ -1,0 +1,4 @@
+Pneumonia Correct Counts: 0 VERSUS  Incorrect Counts: 116 = 0% right
+PE Correct Counts: 0 VERSUS  Incorrect Counts: 100 = 0% right
+Liver Mets Correct Counts: 0 VERSUS  Incorrect Counts: 105 = 0% right
+CSpine FX Correct Counts: 84 VERSUS  Incorrect Counts: 50 = 62% right
