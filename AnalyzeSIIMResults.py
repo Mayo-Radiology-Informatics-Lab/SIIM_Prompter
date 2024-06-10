@@ -5,14 +5,37 @@ if __name__ == '__main__':
     # now read in the reports from SIIMCombinedReports.xlsx into a pandas dataframe
     # these are results using ollama and llama3:8B
     
+    MODEL = 'llama3-70b'
+    MODEL = 'vllm70B'
+    RESULTS_FILE = '~/Desktop/SIIM_Results_' + MODEL + '.csv'
+    
+    
     # Load the Excel file into a DataFrame
-    results_df = pd.read_csv('SIIM_Results.csv')
+    results_df = pd.read_csv(RESULTS_FILE)
+    # get rid of all lines after first line in every cell
+    results_df.replace('\n.*', '', regex=True, inplace=True)
+    # get rid of all '"' in every cell (for some reason there are some) 
+    results_df.replace('"', '', inplace=True)
     
     # convert all 'Absent' to 'No'
-    #results_df.replace('Absent', 'No', inplace=True)
-    #results_df.replace('Present', 'Yes', inplace=True)
+    results_df.replace('Absent', 'No', inplace=True)
+    results_df.replace('Present', 'Yes', inplace=True)
+    results_df.replace('Absent"', 'No', inplace=True)
+    results_df.replace('Present"', 'Yes', inplace=True)
+    results_df.replace('No"', 'No', inplace=True)
+    results_df.replace('Yes"', 'Yes', inplace=True)
+    results_df.replace('Stable"', 'Stable', inplace=True)
+    results_df.replace('Regression"', 'Regression', inplace=True)
+    results_df.replace('Pseudoprogression"', 'Pseudoprogression', inplace=True)
+    results_df.replace('Pseduoreponse"', 'Pseduoreponse', inplace=True)
+    
+    results_df = results_df.rename(columns={'Pulmonary Embolism_response_0': 'Pulmonary Embolism_response', "Pneumonia_response_0":"Pneumonia_response", "LiverMets_response_0": "LiverMets_response",
+           "C1FX_response_0":"C1FX_response", "C2FX_response_0":"C2FX_response", "C3FX_response_0":"C3FX_response", "C4FX_response_0":"C4FX_response", "C5FX_response_0":"C5FX_response", 
+           "C6FX_response_0":"C6FX_response", "C7FX_response_0":"C7FX_response", "GliomaStatus_response_0":"GliomaStatus_response" }) 
+    
+    
+    analysis_file = open(MODEL+"_Analysis.txt", "w")
     results_df
-    analysis_file = open("Analysis.txt", "w")
     
     #---
     
@@ -29,6 +52,8 @@ if __name__ == '__main__':
     #Glioma_df.describe()
     #ICH_df.describe()
     #CSFX_df.describe()
+    
+    LiverMets_df
     
     #---
     
@@ -95,16 +120,6 @@ if __name__ == '__main__':
     analysis_file.write(f"PE Correct Counts: {pe_correct} VERSUS  Incorrect Counts: {pe_incorrect} = {pe_correct*100//(pe_correct + pe_incorrect)}% right\n")
     analysis_file.write(f"Liver Mets Correct Counts: {lm_correct} VERSUS  Incorrect Counts: {lm_incorrect} = {lm_correct*100//(lm_correct + lm_incorrect)}% right\n")
     
-    # Count the number of correct and incorrect by each 'ExamClass'
-    ''' 
-    correct_counts = results_df.groupby('ExamClass')['Correct'].sum()
-    incorrect_counts = results_df.groupby('ExamClass')['Correct'].count() - correct_counts
-    
-    print(f"Correct Counts (so far--only binary categories done): {correct}")
-    print(correct_counts)
-    print(f"\n\nIncorrect Counts: {incorrect}")
-    print(incorrect_counts)
-    '''
     
     
     #---
