@@ -13,6 +13,7 @@ if __name__ == '__main__':
     parser.add_argument('--model', type=str, default='llama3', help='Model name to use')
     parser.add_argument('--server_port', type=int, default=1234, help='Server port number')
     parser.add_argument('--interval', type=int, default=10, help='Interval for processing and negative value skips inference altogether')
+    parser.add_argument('--subset', type=str, default='', help='process a subset of rows. specify as <first>:<last> where those values are integers')
 
     # Parse arguments
     args = parser.parse_args()
@@ -20,6 +21,12 @@ if __name__ == '__main__':
     MODEL = args.model
     SERVER_PORT = args.server_port
     INTERVAL = args.interval
+    SUBSET_STR = args.subset
+    if SUBSET_STR != '':
+        START_LINE, END_LINE = map(int, SUBSET_STR.split(':'))
+    else:
+        START_LINE = 0
+        END_LINE = -1
     
     prompt = Prompt("SIIM.toml")
 #    MODEL = 'mixtral:8x22b'
@@ -86,8 +93,12 @@ if __name__ == '__main__':
     # Load the Excel file into a DataFrame
     reports_df = pd.read_excel(INPUT_FILE)
     
-    if INTERVAL > 1:
+    if END_LINE != -1: # they specified a subset
+        reports_df = reports_df.iloc[START_LINE:END_LINE]
+    if INTERVAL > 1: #specified a skip
         reports_df = reports_df.iloc[::INTERVAL]
+        
+        
         
     # strip spaces out of the FIndings column
     reports_df['Findings'] = reports_df['Findings'].str.replace(' ', '')
