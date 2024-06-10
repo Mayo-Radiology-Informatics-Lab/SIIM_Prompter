@@ -3,41 +3,58 @@ import pandas as pd
 import numpy as np 
 import os
 import pandas as pd
+import argparse
+
 
 if __name__ == '__main__':
     
+        # Set up command line argument parsing
+    parser = argparse.ArgumentParser(description="Run LLM model inference")
+    parser.add_argument('--model', type=str, default='llama3', help='Model name to use')
+    parser.add_argument('--server_port', type=int, default=11434, help='Server port number')
+    parser.add_argument('--interval', type=int, default=0, help='Interval for processing every <interval> reports')
+
+    # Parse arguments
+    args = parser.parse_args()
+
+    MODEL = args.model
+    SERVER_PORT = args.server_port
+    INTERVAL = args.interval
     
     prompt = Prompt("SIIM.toml")
-    MODEL = 'llama3-70b'
     INPUT_FILE = '~/Desktop/SIIMCombinedReports.xlsx'
     OUTPUT_FILE = '~/Desktop/SIIM_Results-' + MODEL + '.csv'
     TEMP_OUT = '~/Desktop/output-' + MODEL + '.csv'
     
-    # use this command to port-forward from a server (roqril0006a) running vllm which will then appear on localhost port 10000:
-    # ssh -N -L localhost:10000:localhost:8000 bje01@roqril006a&
-    '''
-    client = vLLMClient(
-        model=MODEL,
-        base_url="http://localhost:10000/v1",
-        temperature=0.0,
-        seed=42
-    )
-    '''
-    client = OllamaClient(
-        model=MODEL,
-        base_url="http://localhost:11434/v1",
-        temperature=0.0,
-        seed=42,
-    #    hide_blocks=True
-    )
-    '''
-    client = OpenAIClient(
+    if SERVER_PORT == 10000:
+        # use this command to port-forward from a server (roqril0006a) running vllm which will then appear on localhost port 10000:
+        # ssh -N -L localhost:10000:localhost:8000 bje01@roqril006a&
+        client = vLLMClient(
+            model=MODEL,
+            base_url="http://localhost:10000/v1",
+            temperature=0.0,
+            seed=42
+        )
+        print ("Using vLLM on port 10000 with model " + MODEL)
+    elif SERVER_PORT == 11434:
+        client = OllamaClient(
+            model=MODEL,
+            base_url="http://localhost:11434/v1",
+            temperature=0.0,
+            seed=42,
+        )
+    elif SERVER_PORT == 0:
+        client = OpenAIClient(
         model="GPT-4o",
         api_key="",
         temperature=0.0,
         seed=42
     )
-    '''
+    else:
+        print ("Error--unknown server port")
+        exit(-1)
+    print (f"Using port {SERVER_PORT} with model {MODEL}. output will be {OUTPUT_FILE}")
+        
     # delete any prior output
     if os.path.exists(TEMP_OUT):
         os.remove(TEMP_OUT)
