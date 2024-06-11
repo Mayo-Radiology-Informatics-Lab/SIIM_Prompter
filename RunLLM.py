@@ -38,7 +38,9 @@ if __name__ == '__main__':
     # get user's home directory in OS independent way
     home = os.path.expanduser("~")
     INPUT_FILE = home + '/Desktop/SIIMCombinedReports.xlsx'
-    OUTPUT_FILE = 'SIIM_Results-' + MODEL + '.csv'
+    model_name = MODEL.split("/")
+    OUTPUT_FILE = 'SIIM_Results_' + model_name[-1] + '.csv'
+    print (f"Saving final results to {OUTPUT_FILE}")
     TEMP_OUT = 'output.csv'
     
     if SERVER_PORT == 10000:
