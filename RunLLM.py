@@ -28,11 +28,18 @@ if __name__ == '__main__':
         START_LINE = 0
         END_LINE = -1
     
+    
+    MODEL = "ruslanmv/Medical-Llama3-8B-GGUF"
+    INTERVAL = 100
+    
+    
     prompt = Prompt("SIIM.toml")
 #    MODEL = 'mixtral:8x22b'
-    INPUT_FILE = '~/Desktop/SIIMCombinedReports.xlsx'
-    OUTPUT_FILE = '~/Desktop/SIIM_Results-' + MODEL + '.csv'
-    TEMP_OUT = '~/Desktop/output-' + MODEL + '.csv'
+    # get user's home directory in OS independent way
+    home = os.path.expanduser("~")
+    INPUT_FILE = home + '/Desktop/SIIMCombinedReports.xlsx'
+    OUTPUT_FILE = home + '/Desktop/SIIM_Results-' + MODEL + '.csv'
+    TEMP_OUT = home + '/Desktop/output-' + MODEL + '.csv'
     
     
     if SERVER_PORT == 10000:
