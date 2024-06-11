@@ -169,6 +169,7 @@ if __name__ == '__main__':
     if INTERVAL > -1:
         print ('Doing inference...')
         out=engine(reports)
+        print (f"Results should be in {TEMP_OUT}")
     else:
         print ("Skipped doing inference")    
     #---
