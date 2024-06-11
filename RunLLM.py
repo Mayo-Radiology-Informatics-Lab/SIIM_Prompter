@@ -38,9 +38,8 @@ if __name__ == '__main__':
     # get user's home directory in OS independent way
     home = os.path.expanduser("~")
     INPUT_FILE = home + '/Desktop/SIIMCombinedReports.xlsx'
-    OUTPUT_FILE = home + '/Desktop/SIIM_Results-' + MODEL + '.csv'
-    TEMP_OUT = home + '/Desktop/output-' + MODEL + '.csv'
-    
+    OUTPUT_FILE = 'SIIM_Results-' + MODEL + '.csv'
+    TEMP_OUT = 'output.csv'
     
     if SERVER_PORT == 10000:
         # use this command to port-forward from a server (roqril0006a) running vllm which will then appear on localhost port 10000:
