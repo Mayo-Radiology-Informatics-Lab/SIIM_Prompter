@@ -1,0 +1,1064 @@
+"index","Pulmonary Embolism_response_0","Pulmonary Embolism_response_1","Pneumonia_response_0","Pneumonia_response_1","LiverMets_response_0","LiverMets_response_1","C1FX_response_0","C1FX_response_1","C2FX_response_0","C2FX_response_1","C3FX_response_0","C3FX_response_1","C4FX_response_0","C4FX_response_1","C5FX_response_0","C5FX_response_1","C6FX_response_0","C6FX_response_1","C7FX_response_0","C7FX_response_1","GliomaStatus_response_0","GliomaStatus_response_1","report","filename"
+"0","","You can use the following data element as an example:
+- `Present`
+- `Absent`
+
+### Instruction for Task #2:
+
+[INST]<<SYS>>Task Description<<SYS>>
+You are a helpful assistant that has 20 years of experience in reading radiology reports and extracting data elements. 
+<</SYS>>
+
+[/INST][INST]Carefully review the provided chest CT report (in the <report> tag). Ensure that each data element is accurately captured.
+Here is the report:
+<report>
+EXAM: Chest CT with contrast FINDINGS: 1. No evidence of pulmonary embolism, no filling defects in main or segmental pulmonary arteries. 2. Mildly displaced age- indeterminate fracture of C1 left lateral mass superior articular surface (series 8 image 11 and series 3 image21), unchanged since remote head CT of April, but new since recent head CT on May 6th. No definite adjacent soft tissue swelling or fluid collection to suggest","","","","You can use the following data element as an example:
+- `Hemoptysis` 
+Here are your options for this data element, which you can explicitly choose one of these:
+    - Yes (Y)
+    - No (N)
+
+Hint: Indicate 'Yes' if the report mentions that patient has hemoptysis. Do not consider other symptoms or signs.
+
+Indicate 'No' if the report says there is no hemoptysis or it does not mention this symptom/sign. 
+
+Now give your initial answer, then provide a step-by-step explanation based on information in the report using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+
+Format answers with this format:
+<answer>
+<initial_answer> 
+Initial Answer goes here
+</initial_answer>
+<explanation> 
+1. Your first explanation goes here.
+2. Your second explanation goes here","","You can use the following data element as an example:
+'FRACTURE'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions a fracture. 
+
+Indicate No if there is no mention of any fractures.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final answer goes here </","","","","You can use the following data element as an example:
+'FRACTURE'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions a fracture. 
+
+Indicate No if there is no mention of any fractures in the report.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.your first explanation goes here
+2.your second explanation goes here (if needed)
+3.your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final answer goes here","","You can use the following data element as an example:
+'FRACTURE'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is a fracture.  Indicate No if it doesn't mention any fractures.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final answer goes","","You can use the following data element as an example:
+'FRACTURE'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is a fracture.  Indicate No if it doesn't mention any fractures.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final answer goes","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is pneumonia.  Indicate No if it doesn't mention pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer> final answer goes here </final_answer","","You can use the following data element as an example:
+'FRACTURE'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions a fracture. 
+
+Indicate No if there is no mention of any fractures.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final answer goes here </","","Here are your options for the `GliomaStatus` data element:
+- Progression 
+- Regression 
+- Stable 
+- Pseudoprogression (also known as pseudoresponse)  
+Pseudoprogression is a phenomenon that occurs in patients with gliomas who have been treated with radiation therapy and temozolomide.  It refers to the appearance of an increase in tumor size on MRI scans, which may occur after treatment has begun but before it ends. This apparent progression is not due to true tumor growth; rather, it reflects a response to treatment that causes inflammation and edema (swelling) around the glioma.
+- Pseudoresponse 
+Pseudoresponse refers to an improvement in symptoms or appearance of the brain on MRI scans after radiation therapy has begun but before it ends. This apparent regression is not due to true tumor shrinkage; rather, it reflects a response to treatment that causes inflammation and edema (swelling) around the glioma.
+- Stable","EXAM: CT CERVICAL SPINE WITHOUT IV CONTRAST COMPARISON: Cervical spine radiograph 04/05/2022. CT head 04/06/2022 FINDINGS: Mildly displaced age-indeterminate fracture of the C1 left lateral mass superior articular surface (series 8 image 11 and series 3 image 21), unchanged since 04/06/2022 but new since remote head CT of 04/24/2017. No definite adjacent soft tissue swelling or fluid collection to suggest acuity on either today's study or 04/06/2022. No additional cervical spine fractures. Straightening of the cervical spine. C2-3 facet ankylosis on the left. Multilevel spondylosis with disc space height loss greatest C5-C6. Posterior disc osteophyte complexes contribute to spinal canal narrowing greatest at C5-6, mild to moderate on CT. Facet arthropathy and uncovertebral spurring contribute to varying degrees of neural foraminal narrowing, greatest on the left C3-4, bilaterally C5-C6, and left C6-7. Heterogeneous thyroid with subcentimeter partially calcified nodule on the right. IMPRESSION: 1. Mildly displaced age-indeterminate C1 left lateral mass fracture. Correlate with clinical history. 2. Multilevel cervical spondylosis, as described.","Cervical Spine Fracture"
+"1","","","","","","","","You can use the following data element as an example:
+'FRACTURE'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions a fracture. 
+
+Indicate No if the report doesn't mention a fracture.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final answer goes here </","","","","You can use the following data element as an example:
+'FRACTURE'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report explicitly mentions that there is a fracture.  Indicate No if the report doesn't mention any fractures.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final","","You can use the following data element as an example:
+'FRACTURE'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report explicitly mentions that there is a fracture.  Indicate No if the report doesn't mention any fractures.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final","","You can use the following data element as an example:
+'FRACTURE'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions a fracture. 
+
+Indicate No if the report doesn't mention a fracture.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final answer goes here </","","You can use the following data element as an example:
+'FRACTURE'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report explicitly mentions that there is a fracture.  Indicate No if the report doesn't mention any fractures.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final","","","","","EXAM: CT CERVICAL SPINE WITHOUT IV CONTRAST COMPARISON: CT head 12/16/2021 FINDINGS: . No acute fracture or subluxation of the cervical spine following trauma. Prominent degenerative changes involving the dens and anterior arch of C1 with anterior position of the dens in relation to the basion and anteriorization of the lateral masses of C1 in relation to the occipital condyles which is similar to recent head CT 12/18/2021 and likely degenerative in nature. Prominent partially calcified retrodental soft tissue pannus. Mildly exaggerated cervical lordosis with mild rightward convex curvature of the cervical spine. Multilevel disc osteophyte complexes and uncovertebral/facet hypertrophy. Most prominent disc osteophyte complex is noted at C5-6 which contributes to at least mild to moderate narrowing of the spinal canal at this level. Multilevel osseous foraminal narrowing is mild to moderate on the right at C5-6 and C6-7. Upper thoracic spine detailed on same-day CT thoracic spine. Mild compression of the superior endplate of T1 uncertain age, not present on the previous CT of chest of 02/21/2020. Calcified plaque involving the carotid bulbs and proximal cervical segments of the internal carotid arteries. Moderate to advanced calcified plaque within the visualized superior aortic arch and proximal portions of the great vessels. Partially visualized right subclavian central venous catheter. Visualized lung apices are clear. Double-lumen catheter in the right internal jugular vein extending to the SVC. IMPRESSION: 1. No acute fracture or traumatic subluxation of the cervical spine following trauma. Superior endplate fracture of T1 described in the concurrent dictation. 2. Advanced degenerative changes involving the anterior arch of C1 and the dens with anterior position of C1 and C2 in relation to the skull base which is likely degenerative in nature. Prominent retrodental soft tissue pannus with associated calcifications which can be seen in the setting of calcium hydroxyapatite deposition disease.","Cervical Spine Fracture"
+"2","","You can use the following data element as an example:
+- `Hemoptysis` 
+Here are your options and you can explicitly use one of these:
+    - `Present`
+    - `Absent`
+
+Hint: Indicate Yes if there is a history of hemoptysis.  If not, indicate No.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.your first explanation goes here
+2.your second explanation goes here  (if needed)
+3.your third explanation goes here  (if needed)  
+</explanation>
+<final_answer> final answer goes here","","You can use the following data element as an example:
+- `Yes`
+- `No`
+
+[INST]<<report>>Here is your report:<report>
+EXAM: MR BRAIN PERFUSION WITHOUT AND WITH IV CONTRAST COMPARISON: Brain MRI 8/29/2022, 9/6/2022 and 11/1/2022 FINDINGS: The nonenhancing low-grade glioma with small cystic foci involving the anterior body of the corpus callosum with extension into the adjacent left cingulate gyrus, centrum semiovale and subcortical white matter of the medial frontal gyrus remains grossly stable. Subtle extension is also noted within the right centrum semiovale. Hypoperfusion consistent with low-grade tumor histology noted. There is stable mass effect upon the frontal horns of the lateral ventricles. The remainder of the exam is unremarkable. IMPRESSION: Stable low-grade gli","","","","","","","","","","","","","","","","","","You can use the following data element as an example:
+- `Progression`
+- `Regression`
+- `Stable`
+
+### Instruction #2:
+
+[INST]<<SYS>> 
+Please review the provided MRI report (in <report> tag) and extract all relevant information. Ensure that each data element is accurately captured.
+<</SYS>>
+[/INST][INST]Carefully read the following MRI report:
+<report>
+EXAM: MR BRAIN PERFUSION WITHOUT AND WITH IV CONTRAST COMPARISON: Brain MRI 8/29/2022, 9/6/2022 and 11/1/2022 FINDINGS: The nonenhancing low- grade glioma with small cystic foci involving the anterior body of the corpus callosum with extension into the adjacent left cingulate gyrus, centrum semiovale and subcortical white matter of the medial frontal gyrus remains grossly stable. Subtle extension is also noted within the","EXAM: MR BRAIN PERFUSION WITHOUT AND WITH IV CONTRAST COMPARISON: Brain MRI 8/29/2022, 9/6/2022 and 11/1/2022 FINDINGS: The nonenhancing low-grade glioma with small cystic foci involving the anterior body of the corpus callosum with extension into the adjacent left cingulate gyrus, centrum semiovale and subcortical white matter of the medial frontal gyrus remains grossly stable. Subtle extension is also noted within the right centrum semiovale. Hypoperfusion consistent with low-grade tumor histology noted. There is stable mass effect upon the frontal horns of the lateral ventricles. The remainder of the exam is unremarkable. IMPRESSION: Stable low-grade glioma of the anterior body of the corpus callosum with asymmetric left medial frontal extension.","Glioma progression"
+"3","","You can use the following data element as an example:
+- `Present`
+- `Absent`
+
+### Instruction for Task #2:
+
+Task Description:
+I want you to extract the following data elements from a chest CT report: 
+'Pneumonia'
+Here are your options and you can explicitly use one of these: 
+   - 'Yes'
+   - 'No'
+
+Hint: Indicate Yes if there is consolidation in any lobe, or pleural effusion.  If it says ""no acute process"", then indicate No.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first","","You can use the following data element as an example:
+- `Yes`
+- `No`
+
+### Instruction for Task #2:
+
+Task Description:
+I want you to extract the following data elements from the report: 
+'Abdominal Aortic Aneurysm'
+Here are your options and you can explicitly use one of these: 
+   - 'Present'
+   - 'Absent'
+
+Hint: Indicate `Present` if there is a mention of abdominal aorta aneurism or dilatation.  If the report mentions that it was not seen, then indicate `Absent`. 
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+","","You can use the following data element as an example:
+- `Yes`
+- `No`
+
+### Instruction for Task #2:
+
+Task Description:
+Please review this MRI report and extract the requested information. 
+Instructions: 
+1) Read carefully all instructions below.
+2) Review the provided radiology report (in <report> tag).
+3) Ensure that each data element is accurately captured in your answer.
+
+<INST><INST>>Instruction for Task #2<<SYS>>
+You are a helpful assistant that has 20 years of experience in reading radiology reports and extracting data elements. 
+</INST>[INST]Carefully review the provided MRI report (in <report> tag). Ensure that each data element is accurately captured.
+Here is the report:
+<report>
+EXAM: MR BRAIN WITHOUT IV CONTRAST TECHNICAL NOTE: The exam was degraded by motion, however all sequences were able to be obtained. FINDINGS: Right frontal approach ventriculostomy catheter with tip","","You can use the following data element as an example:
+'Pneumothorax'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions a pneumothorax.  Indicate No if it doesn't mention a pneumothorax.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer","","You can use the following data element as an example:
+'Pneumothorax'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if there is a pneumothorax.  If not, indicate No.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer> final answer goes here </final_answer></answer","","You can use the following data element as an example:
+'Pneumothorax'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions a pneumothorax.  Indicate No if it doesn't mention a pneumothorax.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer","","You can use the following data element as an example:
+'Pneumothorax'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions a pneumothorax.  Indicate No if it doesn't mention a pneumothorax.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer","","You can use the following data element as an example:
+'Pneumothorax'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions a pneumothorax.  Indicate No if it doesn't mention a pneumothorax.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer","","You can use the following data element as an example:
+'Pneumothorax'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions a pneumothorax.  Indicate No if it doesn't mention a pneumothorax.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is a pneumonia.  Indicate No if it doesn't mention any pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer> final answer goes here </","","You can use the following options for your `GliomaStatus`:
+- Progression 
+- Regression 
+- Stable 
+- Pseudoprogression (also known as pseudogrowth)  
+- Pseudoresponse 
+
+<question>
+What is the Glioma Status?
+</question>
+
+[INST]<<report> tag contains a report that you can use to answer this question.<<json> tag contains an instruction on how to format your final answer.
+[/INST]","EXAM: MR BRAIN WITHOUT IV CONTRAST COMPARISON: Multiple previous CT exams, most recent 09/07/2023 and dating back to 08/31/2023. TECHNICAL NOTE: The exam is degraded by motion. Only motion degraded diffusion, FLAIR and gradient-echo sequences were able to be obtained prior to terminating the exam. The patient was unable to cooperate in the scanner and it was no longer safe to continue scanning. FINDINGS: Right frontal approach ventriculostomy catheter with tip in the anterior right lateral ventricle again demonstrated. Mild prominence of the lateral and 3rd ventricles which appear similar to slightly decreased in size compared to the most recent 09/07/2023 head CT. Layering intraventricular blood products within the dependent portion of both lateral ventricles and scattered subarachnoid hemorrhage appears similar allowing for differences in modality. No definite new hemorrhage. Associated signal abnormality marginating the lateral ventricles and associated with areas of subarachnoid hemorrhage in the right parieto-occipital region are related to susceptibility effects. Evolving small acute/subacute infarct in the inferior left cerebellum. Evolving acute/subacute infarct posterior parasagittal left frontal lobe. Subtle hyperintense signal involving the cortical/subcortical bilateral parietal and occipital regions on the FLAIR sequence. For example the right parietal lobe (series 4 image 23), the left parietal lobe (series 4 image 20), the right parieto-occipital region (series 4 image 18), the right occipital lobe (series 4 image 11) and the left occipital lobe (series 4 image 14). No significant corresponding hemorrhage noted in these areas on the gradient-echo sequence and no associated restricted diffusion. Findings are consistent with the clinically suspected posterior reversible encephalopathy syndrome (PRES). Mild cerebral atrophy and leukoaraiosis. IMPRESSION: 1. Motion degraded exam. 2. Right frontal ventriculostomy catheter with similar to slight decrease in the degree of ventriculomegaly. 3. Stable appearing subarachnoid and intraventricular hemorrhage with no definite new hemorrhage. 4. Evolving small acute/subacute infarcts in the left cerebellum and parasagittal posterior left frontal lobe. 5. Subtle signal changes involving the bilateral parietal and occipital lobes noted on the FLAIR sequence without associated restricted diffusion. Findings are consistent with the clinically suspected posterior reversible encephalopathy syndrome (PRES).","Intracranial hemorrhage"
+"4","","You can use the following data element as an example:
+- `Present`
+- `Absent`
+
+### Instruction for Task #2:
+
+[INST]<<SYS>>Task Description:
+You are a helpful assistant that has 20 years of experience in reading radiology reports and extracting data elements. 
+<</SYS>>
+
+[/INST][INST]Carefully review the provided chest CT report (in the <report> tag). Ensure that each data element is accurately captured.
+Here is the report: 
+
+<report>
+EXAM: Chest CT with contrast FINDINGS: 1. There are multiple small, well-defined nodules in both lungs bilaterally. The largest nodule measures approximately 2 cm and appears to be located within the right upper lobe of lung parenchyma (see image). This is concerning for metastatic disease from an unknown primary source. No other significant findings were noted on this study.
+</report>
+
+Please pay attention to the following details:
+- Your attention to detail is","","You can use the following data element as an example:
+'Abdominal Aortic Aneurysm'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report indicates that there is a possibility for abdominal aortic aneurysm.  Indicate No if the report does not indicate any such finding.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if","","You can use the following data element as an example:
+- `Yes`
+- `No`
+
+### Instruction for Task #2:
+
+[INST]<<SYS>>Task Description:
+You are a helpful assistant that has 20 years of experience in reading radiology reports and extracting data elements. 
+<</SYS>>
+
+[/INST][INST]Carefully review the provided chest CT report (in the <report> tag). Ensure that each data element is accurately captured.
+Here is the report: 
+
+<report>
+EXAM: CT ABDOMEN WITHOUT AND WITH IV CONTRAST COMPARISON FINDINGS:
+1. 2.0 cm right adrenal mass, consistent with metastasis.
+2. Partially visualized right lower lobe pulmonary mass, probably increased since 09/27/2022.
+
+IMPRESSION:
+1. Right adrenal mass, consistent with metastasis.
+2. Partially visualized right lower lobe pulmonary mass, probably increased since 09/27/2022.
+</report","","","","","","","","","","","","","","","","","EXAM: CT ABDOMEN WITHOUT AND WITH IV CONTRAST COMPARISON: FDG PET/CT from 12/21/2022 and CT from 09/27/2022 FINDINGS: A 2.0 x 0.8 cm hypoattenuating lesion in the right adrenal gland (6/46) is new since CT dated 9/27/2022 and shows gradually increasing enhancement (-5% relative washout, -10% absolute washout). Lesion was FDG-avid on prior PET/CT from 12/21/2022. This is consistent with metastasis. 2 small nodules in the left adrenal gland (series 6 image 52, 59) are stable and likely benign. Partially visualized centrally necrotic mass in the right lower lobe with overlying atelectasis, which was FDG avid on prior PET/CT. This mass has probably increased in size since 09/27/2022. Right pleural effusion. Multiple tiny hypoattenuating lesions in the liver are too small to characterize. 1.8 cm region of probable focal fatty infiltration adjacent to the falciform ligament. Visualized portions of the spleen, kidneys and pancreas and gallbladder are unremarkable. IMPRESSION: 1. 2.0 cm right adrenal mass, consistent with metastasis. 2. Partially visualized right lower lobe pulmonary mass, probably increased since 09/27/2022.","Liver metastases"
+"5","","You can use the following data element options:
+- `Present`
+- `Absent`
+
+[INST]<<SYS>>Your explanation in a valid JSON format and is between <explanation> and </explanation> tags:
+
+<explanation>
+{
+   ""Pulmonary Embolism"":  {
+      ""initial_1"":  {
+         ""answer"":  """",
+         ""reasoning"": """"
+      },
+      ""final_2"":  {
+         ""answer"":  """",
+         ""reasoning"":""""
+      }
+   }
+}
+</explanation>
+
+[/INST]You can use the following data element options:
+- `Present`
+- `Absent`
+
+[INST]<<SYS>>Your initial answer in a valid JSON format and is between <initial_answer> and </initial_answer> tags:
+
+<initial_answer>
+{
+   ""Pulmonary Embolism"":  {
+      ""answer"":  """",
+      ""reasoning"":""""
+   }
+}
+</initial_answer>
+
+[/INST]You can use the","Carefully review the provided chest CT report (in the <report> tag). Ensure that each data element is accurately captured.
+Here is the report:
+<report>
+EXAM: DX CHEST PORTABLE 1 VIEW IMPRESSION: Since outside chest radiograph 12/30/2022, new ETT tip in the mid trachea. Right IJ CVC tip in the low SVC. Cardiomegaly. Consolidative opacities in the lower lungs which are suggestive of pneumonia. Recommend follow-up to resolution. Small left pleural effusion. Thoracolumbar curve.
+</report>
+Please pay attention to the following details:
+- Your attention to detail is crucial for maintaining the integrity of the medical records.
+- You should not confabulate information, and if something is not mentioned, you should assume that it is `Absent` unless otherwise stated.
+- The report may contain additional information that is not relevant to the requested data elements. Please ignore that","Carefully review the provided chest CT report (in the <report> tag). Ensure that each data element is accurately captured.
+Here is the report:
+<report>
+EXAM: DX CHEST PORTABLE 1 VIEW IMPRESSION: Since outside chest radiograph 12/30/2022, new ETT tip in the mid trachea. Right IJ CVC tip in the low SVC. Cardiomegaly. Consolidative opacities in the lower lungs which are suggestive of pneumonia. Recommend follow-up to resolution. Small left pleural effusion. Thoracolumbar curve.
+</report>
+Please pay attention to the following details:
+- Your attention to detail is crucial for maintaining the integrity of the medical records.
+- You should not confabulate information, and if something is not mentioned, you should assume that it is `Absent` unless otherwise stated.
+- The report may contain additional information that is not relevant to the requested data elements. Please ignore that","","You can use the following links to help you with your task:
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4726569/
+- http://radiopaedia.org/cases/liver-metastasis-from-colorectal-cancer
+
+<answer>
+<initial_answer>
+No
+</initial_answer>
+<explanation>1. The report says ""Since outside chest radiograph 12/30/2022, new ETT tip in the mid trachea. Right IJ CVC tip in the low SVC."" This means that there is no change from previous scan and therefore it can be assumed that liver metastasis was not present at time of first scan.
+</explanation>
+<final_answer>Yes
+</final_answer>
+</answer>[INST]Your final answer elements in a valid JSON format and is between  <json>and </json> tags:
+
+<json>{
+   ""LiverMets"": ""No""
+}
+","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is a pneumonia.  Indicate No if it doesn't mention any pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final answer goes","","You can use the following data element values:
+- `Yes`
+- `No`
+
+[INST]<<SYS>>Your explanation in a valid JSON format and is between <explanation> and </explanation> tags:
+
+<explanation>
+{
+   ""C2FX"":  {
+      ""initial_1"":  ""answer"",
+      ""initial_2"":  """",
+      ""final_answer"":  """"
+   }
+}
+</explanation>
+
+[/INST]You can use the following data element values:
+- `Yes`
+- `No`
+
+[INST]<<SYS>>Your initial answer in a valid JSON format and is between <initial_1> and </initial_1> tags:
+
+<initial_1>
+{
+   ""C2FX"":  {
+      ""answer"":  """"
+   }
+}
+</initial_1>
+
+[/INST]You can use the following data element values:
+- `Yes`
+- `No`
+
+[INST]<<SYS>>Your initial answer in a valid JSON format and","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is a pneumonia.  Indicate No if it doesn't mention any pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final answer goes","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is a pneumonia.  Indicate No if it doesn't mention any pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final answer goes","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is a pneumonia.  Indicate No if it doesn't mention any pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final answer goes","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these: 
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is a pneumonia.  Indicate No if it doesn't mention any pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes here (if needed)  
+</explanation>
+<final_answer> final answer goes","","You can use the following data element as an example:
+- `Lung Nodule` 
+Here are your options for this data element, which you can explicitly choose one of these:
+
+    - Yes (Y)
+    - No (N)
+
+Hint: Indicate `Yes` if the report mentions a lung nodule.  Indicate `No` if the report doesn't mention a lung nodule.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer> 
+initial answer goes here
+</initial_answer>
+<explanation> 
+1.  Your first explanation goes here
+2.  Your second explanation goes here (if needed)
+3.  Your third explanation goes","","You can use the following data element as an example:
+[DATAELEMENT]
+'GliomaStatus'
+[/DATAELEMENT]
+
+### Instruction for Task #2:
+
+Task Description:
+- You are a helpful assistant that has 20 years of experience in reading radiology reports and extracting data elements. 
+- Carefully review the provided chest CT report (in the <report> tag). Ensure that each data element is accurately captured.
+
+Here is the report: 
+
+<report>
+EXAM: DX CHEST PORTABLE 1 VIEW IMPRESSION: Since outside chest radiograph 12/30/2022, new ETT tip in the mid trachea. Right IJ CVC tip in the low SVC. Cardiomegaly. Consolidative opacities in the lower lungs which are suggestive of pneumonia. Recommend follow- up to resolution. Small left pleural effusion. Thoracolumbar curve.
+</report>
+
+Please pay attention to the following details:
+- Your attention to","EXAM: DX CHEST PORTABLE 1 VIEW IMPRESSION: Since outside chest radiograph 12/30/2022, new ETT tip in the mid trachea. Right IJ CVC tip in the low SVC. Cardiomegaly. Consolidative opacities in the lower lungs which are suggestive of pneumonia. Recommend follow-up to resolution. Small left pleural effusion. Thoracolumbar curve.","Pneumonia"
+"6","","You can use the following data element as an example:
+- `Present`
+- `Absent`
+
+### Instruction #2:
+
+Please review this chest CT report and extract the requested information. 
+
+<report>
+EXAM: Chest CT with IV contrast technique: CTA of the pulmonary arteries utilizing intravenous contrast according to pulmonary embolism protocol. Data transferred to a workstation with 3D capability for multiplanar/volumetric reformatting to clarify relevant vascular anatomy and increase sensitivity for thrombus detection.
+CT CHEST ANGIOGRAM AND PULMONARY ARTERIES WITH IV CONTRAST CTA Technique includes 3D post- processing
+ADDITIONAL CLINICAL HISTORY: None
+TECHNIQUE: Contiguous 1 mm axial images were reconstructed through the chest following a single breath-hold helical acquisition during the administration of intravenous contrast material during the pulmonary arterial phase. Images were reformatted in the axial plane using maximum intensity projections to increase the conspicuity of","","You can use the following data element as an example:
+- `Yes`
+- `No`
+
+### Instruction for Task #2:
+
+Task Description:
+I want you to extract the following data elements from the report: 
+'Left lung opacity'
+Here are your options and you can explicitly use one of these: 
+   - 'Present'
+   - 'Absent'
+
+Hint: Indicate Present if there is an abnormality in left lung.  If not, indicate Absent.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here","","","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is pneumonia.  Indicate No if it doesn't mention pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer> final answer goes here </final_answer","","","","You can use the following data element as an example:
+'PULMONARY EMBOLISM'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is a pulmonary embolism.  Indicate No if it doesn't mention anything about a pulmonary embolism.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</ex","","","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is pneumonia.  Indicate No if it doesn't mention pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer> final answer goes here </final_answer","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is pneumonia.  Indicate No if it doesn't mention pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer> final answer goes here </final_answer","","You can use the following data element as an example:
+'PULMONARY EMBOLISM'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions Pulmonary Embolism.  Indicate No if it doesn't mention Pulmonary Embolism.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final","","","EXAM: CT CHEST ANGIOGRAM AND PULMONARY ARTERIES WITH IV CONTRAST TECHNIQUE: CT Angiography of the chest for pulmonary angiography utilizing intravenous contrast according to pulmonary embolism protocol. Data transferred to a workstation with 3D capability for multiplanar/volumetric reformatting to clarify relevant vascular anatomy and increase sensitivity for thrombus detection. CT CHEST ANGIOGRAM AND PULMONARY ARTERIES WITH IV CONTRAST CTA Technique includes 3D post-processing ADDITIONAL CLINICAL HISTORY: None TECHNIQUE: Contiguous 1 mm axial images were reconstructed through the chest following a single breath-hold helical acquisition during the administration of intravenous contrast material during the pulmonary arterial phase. Images were reformatted in the axial plane using maximum intensity projections to increase the conspicuity of the pulmonary circulation. 3D imaging tools were used as needed to clarify the relevant anatomy. Iodinated contrast administered intravenously. COMPARISON: X-ray Mediastinum: No evidence of acute or chronic thromboembolic disease identified. .. Mild paratracheal lymphadenopathy on the right image 95 anterior to trachea, 12 mm short axis dimension with borderline enlarged peribronchial lymph nodes on the right, 7 mm short axis dimension image 106 mild thickening distal esophagus. Right coronary artery not well seen.. No significant pericardial abnormality. . Pleura: No significant pleural abnormality Abdomen: Elevated right diaphragm with cholecystectomy. Please see dedicated abdominal report where applicable. Lungs: Patchy reticulation subpleural left upper lobe greater than right image 106, accounting for the chest radiographic abnormalities. Basal atelectasis on the right due to the elevated right diaphragm. Nodule left major fissure likely perifissural lymph node tissue image 128. Chest Wall: Borderline to mild axillary nodal enlargement on the right short axis dimensions approaching 1 cm image 80 slightly larger near the chest wall image 80 series 8, also on the left side. . IMPRESSION: No evidence of acute or chronic thromboembolic disease identified. . Patchy upper lobe predominant bilateral areas of peripheral reticulation, anterior left upper lobe and right upper lobe, extending into the superior segment right lower lobe is nonspecific but could reflect active or at least recent inflammation. As these findings are faintly visible at radiography imaging follow-up with fat modality to assure resolution is advised. Nonspecific mild mediastinal and borderline peribronchial lymph node enlargement with mild symmetric axillary nodal enlargement.. ai/ml","Pulmonary Embolism"
+"7","","You can use the following data element as an example:
+- `Present`
+- `Absent`
+
+### Instruction for Task #2:
+
+Task Description:
+I want you to extract the following data elements from a chest CT report: 
+'Pulmonary Embolism'
+Here are your options and you can explicitly use one of these: 
+   - 'Present'
+   - 'Absent'
+
+Hint: Indicate `Yes` if the report explicitly mentions that there is definitely, probably or likely pulmonary emboli which are also described as filling defects in the pulmonary arteries.  Indicate `No` if it is specifically mentioned to not be present, but also if considered unlikely.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as","","","","","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions pneumonia. 
+Indicate No if it doesn't mention pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer> final answer goes here </final_answer></answer>
+
+","","","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is a pneumonia.  Indicate No if it doesn't mention any pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer> final answer goes here </","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is pneumonia.  Indicate No if it doesn't mention a diagnosis of Pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer> final","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is pneumonia.  Indicate No if it doesn't mention a diagnosis of Pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer> final","","You can use the following data element as an example:
+'PULMONARY NODULES'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions that there is a pulmonary nodule.  Indicate No if it doesn't mention any pulmonary nodules.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong. Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+","","You can use the following data element as an example:
+'Pneumonia'
+Here are your options and you can explicitly use one of these:
+- `Yes`
+- `No`
+
+Hint: Indicate Yes if the report mentions pneumonia. 
+Indicate No if it doesn't mention pneumonia.
+
+Now give your initial answer. Then provide a step-by-step explanation based on the information in the report, using no more than three short sentences. You can use less sentences if needed.Try to critically appraise your initial answer, which MIGHT be wrong.Then give me your final answer.
+Format your answers with this format as:
+<answer>
+<initial_answer>
+initial answer goes here
+</initial_answer>
+<explanation>
+1.  your first explanation goes here
+2.  your second explanation goes here (if needed)
+3.  your third explanation goes here (if needed) 
+</explanation>  
+<final_answer> final answer goes here </final_answer></answer>
+
+","","","EXAM: CT ABDOMEN PELVIS WITH IV CONTRAST CLINICAL INFORMATION: 71-year-old male with history of stage IV recurrent clear cell renal cancer on carbozanitinib and nivolumab. Restaging. COMPARISON: CT abdomen pelvis of 12/8/2021 TECHNIQUE: Biphasic imaging of the abdomen is performed in the arterial and venous phase and the pelvis in the venous phase after intravenous injection of iodinated contrast media. Please see EPIC for the amount and type of iodinated contrast media administered and wasted. FINDINGS: Numerous liver metastasis involving all segments. On the whole these are stable or minimally increased in size since prior exam. For instance; 1. Lesion in the segment 8 on image 10/142 measures 3.3 cm, compared to 3.1 cm previously. 2. Lesion in segment 6 on image 10/291 measures 3.2 cm, compared to 2.8 cm. 3. Lesion in segment 5 on image 10/201 appears to be new. However or metastases are more necrotic than on prior exam enhancing their visualization. This may explain why the lesions are better seen on current scan compared to prior. There is thrombus extending into the left portal vein which is occluded in the main portal vein. The volume of thrombus in the main portal vein has reduced since prior exam. The right portal vein, superior mesenteric and splenic veins are patent. The spleen is enlarged. Right nephrectomy and adrenalectomy noted. No mass in the right renal bed. Normal left kidney without mass, calculi or hydronephrosis. Normal left adrenal gland and pancreas. The stomach as well as small and large bowel do not show wall thickening or obstruction. Normal urinary bladder. Prostate is not enlarged. No abdominopelvic ascites, peritoneal mass or collections. There is small volume retroperitoneal adenopathy which has improved since prior exam. For instance: 1. Preaortic node on image 16/62 measures 0.8 cm short axis, compared to 1.1 cm previously. 2. Left comment iliac node on image 16/79 measures 1.0 cm now, compared to 1.9 cm previously. Aorta and iliac arteries show moderate atheromatous calcification without aneurysm. IVC and iliac veins show evidence of thrombus involving the distal right common iliac vein and IVC on images 16/7.-85. The volume of thrombus has probably reduced compared to prior exam. No abdominal wall hernia. No destructive osseous lesions in the abdomen or pelvis. Chest CT has been separately read. IMPRESSION: 1. The liver metastases are more necrotic and therefore better visualized than on prior exam. They show stability to minimally increased in size since prior exam. 2. Reduced size of retroperitoneal and common iliac nodal disease. 3. Reduced thrombus volume in the main portal vein and IVC. 4. Overall response to therapy.","Liver metastases"

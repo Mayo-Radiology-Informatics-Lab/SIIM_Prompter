@@ -30,7 +30,7 @@ if __name__ == '__main__':
     
     
     MODEL = "ruslanmv/Medical-Llama3-8B-GGUF"
-    INTERVAL = 100
+    INTERVAL = 200
     
     
     prompt = Prompt("SIIM.toml")
@@ -40,7 +40,6 @@ if __name__ == '__main__':
     INPUT_FILE = home + '/Desktop/SIIMCombinedReports.xlsx'
     model_name = MODEL.split("/")
     OUTPUT_FILE = 'SIIM_Results_' + model_name[-1] + '.csv'
-    print (f"Saving final results to {OUTPUT_FILE}")
     TEMP_OUT = 'output.csv'
     
     if SERVER_PORT == 10000:
@@ -78,7 +77,7 @@ if __name__ == '__main__':
     else:
         print (f"Error--unknown server port {SERVER_PORT}")
         exit(-1)
-    print (f"Using port {SERVER_PORT} with model {MODEL}. output will be {OUTPUT_FILE}")
+    print (f"Using port {SERVER_PORT} with model {MODEL}.\nOutput will be {OUTPUT_FILE}")
     
     
     # delete any prior output
@@ -193,9 +192,16 @@ if __name__ == '__main__':
         os.remove(OUTPUT_FILE)
     # sometimes the LLM gives a long answer, so remove all that
     # Remove all lines after the first line of a cell (including the '\n') throughout the dataframe
-    out_df = out_df.applymap(lambda x: x.split('\n')[0] if isinstance(x, str) else x)
-    
-    
+    for col_name in ['Pulmonary Embolism', 'Pneumonia', 'LiverMets', 'C1FX', 'C2FX', 'C3FX', 'C4FX', 'C5FX', 'C6FX', 'C7FX', 'GliomaStatus']:
+        col_del = col_name + '_response_1'
+        try:
+            out_df.drop(columns=[col_del], inplace=True, axis=1)
+        except:
+            pass
+        try:
+            out_df = output_df.rename(columns={col_name+'_reponse_0': col_name})
+        except:
+            pass       
     # Write the combined dataframe to a CSV fil
     out_df.replace('Absent', 'No', inplace=True)
     out_df.replace('Present', 'Yes', inplace=True)
